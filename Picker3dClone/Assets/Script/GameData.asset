@@ -1,0 +1,2468 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cbf3b426e1b3284fb1c185be8a5f83f, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: Assembly-CSharp::GameDatas
+  coinCount: 0
+  gemCount: 0
+  levelInd: 0
+  lastPlayedLevelInd: 0
+  randomizeLevel: 0
+  levels:
+  - collectibles:
+    - collectibleType: 2
+      pos: {x: -3.8118865, y: 0.675, z: -16.488466}
+    - collectibleType: 2
+      pos: {x: -2.835863, y: 0.67499995, z: -16.599617}
+    - collectibleType: 2
+      pos: {x: -3.7883186, y: 0.6750001, z: -15.161431}
+    - collectibleType: 2
+      pos: {x: -2.891319, y: 0.67499995, z: -15.2138}
+    - collectibleType: 2
+      pos: {x: 2.86245, y: 0.67499995, z: -16.64528}
+    - collectibleType: 2
+      pos: {x: 3.5481637, y: 0.67499995, z: -16.64528}
+    - collectibleType: 2
+      pos: {x: 2.9432504, y: 0.67499995, z: -15.5904255}
+    - collectibleType: 2
+      pos: {x: 3.5967555, y: 0.67499995, z: -15.505753}
+    - collectibleType: 2
+      pos: {x: 1.0113554, y: -1308191.2, z: -1.3541911}
+    - collectibleType: 2
+      pos: {x: 478.40878, y: -1242437.8, z: 699.8956}
+    - collectibleType: 2
+      pos: {x: -0.57739896, y: 0.67500013, z: -3.846372}
+    - collectibleType: 2
+      pos: {x: -0.06856797, y: 0.67499995, z: -3.7297053}
+    - collectibleType: 2
+      pos: {x: -0.59549135, y: 0.6749999, z: -2.539568}
+    - collectibleType: 2
+      pos: {x: -0.12268496, y: 0.67499995, z: -2.4814415}
+    - collectibleType: 2
+      pos: {x: 0.44064343, y: 0.6749999, z: -2.4814415}
+    - collectibleType: 2
+      pos: {x: 0.50151056, y: 0.6749999, z: -3.69479}
+    - collectibleType: 2
+      pos: {x: -1.1840858, y: 0.67499995, z: -3.6425211}
+    - collectibleType: 2
+      pos: {x: -1.1869315, y: 0.67499995, z: -2.5395682}
+    - collectibleType: 1
+      pos: {x: -0.20932323, y: 0.4999713, z: 54.27085}
+    - collectibleType: 1
+      pos: {x: 0.61899364, y: 0.49999017, z: 55.0671}
+    - collectibleType: 1
+      pos: {x: -0.18799242, y: 0.49999273, z: 55.52068}
+    - collectibleType: 1
+      pos: {x: -1.8240218, y: 0.49999836, z: 62.22807}
+    - collectibleType: 1
+      pos: {x: -2.7478297, y: 0.5003544, z: 62.344044}
+    - collectibleType: 1
+      pos: {x: -3.696849, y: 0.49988896, z: 62.171658}
+    - collectibleType: 1
+      pos: {x: -0.3486037, y: 0.49999002, z: 62.172306}
+    - collectibleType: 1
+      pos: {x: 1.0805713, y: 0.49999142, z: 62.001778}
+    - collectibleType: 1
+      pos: {x: 2.0599115, y: 0.4997936, z: 62.227375}
+    - collectibleType: 1
+      pos: {x: 3.544012, y: 0.50004137, z: 62.286236}
+    - collectibleType: 1
+      pos: {x: -2.7702913, y: 0.49998873, z: 75.59847}
+    - collectibleType: 1
+      pos: {x: -2.1813097, y: 0.50029325, z: 76.501595}
+    - collectibleType: 1
+      pos: {x: -2.9906728, y: 0.4999961, z: 76.97797}
+    - collectibleType: 1
+      pos: {x: 2.7029855, y: 0.49999058, z: 76.040665}
+    - collectibleType: 1
+      pos: {x: 3.67033, y: 0.49998993, z: 75.96496}
+    - collectibleType: 1
+      pos: {x: 2.804489, y: 0.65811306, z: 76.98391}
+    - collectibleType: 0
+      pos: {x: -0.72411263, y: 0.675, z: 90.93553}
+    - collectibleType: 0
+      pos: {x: -0.06111458, y: 0.675, z: 90.824745}
+    - collectibleType: 0
+      pos: {x: 0.6831319, y: 0.675, z: 90.84297}
+    - collectibleType: 0
+      pos: {x: 0.6885499, y: 0.675, z: 92.08998}
+    - collectibleType: 0
+      pos: {x: -0.08279854, y: 0.675, z: 92.07938}
+    - collectibleType: 0
+      pos: {x: -0.7605032, y: 0.675, z: 92.079636}
+    - collectibleType: 0
+      pos: {x: -4.51542, y: 0.675, z: 123.589386}
+    - collectibleType: 0
+      pos: {x: -3.9938781, y: 0.675, z: 121.50352}
+    - collectibleType: 0
+      pos: {x: -3.4414577, y: 0.675, z: 119.56801}
+    - collectibleType: 0
+      pos: {x: -2.8776798, y: 0.675, z: 118.05835}
+    - collectibleType: 0
+      pos: {x: -2.4104571, y: 0.675, z: 116.63432}
+    - collectibleType: 0
+      pos: {x: -1.8333018, y: 0.675, z: 115.88479}
+    - collectibleType: 0
+      pos: {x: -1.2026882, y: 0.675, z: 114.77089}
+    - collectibleType: 0
+      pos: {x: -0.3672789, y: 0.675, z: 114.51595}
+    - collectibleType: 0
+      pos: {x: 0.4724787, y: 0.675, z: 114.51599}
+    - collectibleType: 0
+      pos: {x: 1.2272377, y: 0.675, z: 115.02782}
+    - collectibleType: 0
+      pos: {x: 2.0343118, y: 0.675, z: 116.35814}
+    - collectibleType: 0
+      pos: {x: 2.9228275, y: 0.675, z: 118.35193}
+    - collectibleType: 0
+      pos: {x: 3.6085, y: 0.675, z: 120.5164}
+    - collectibleType: 0
+      pos: {x: 4.3555093, y: 0.675, z: 122.87449}
+    - collectibleType: 0
+      pos: {x: 4.8997974, y: 0.675, z: 125.11957}
+    - collectibleType: 0
+      pos: {x: -4.967969, y: 0.675, z: 126.365234}
+    - collectibleType: 0
+      pos: {x: 5.120921, y: 0.675, z: 127.82167}
+    - collectibleType: 0
+      pos: {x: -5.189482, y: -88234.95, z: 29.781834}
+    - collectibleType: 0
+      pos: {x: -5.0285454, y: 0.675, z: 142.76888}
+    - collectibleType: 0
+      pos: {x: -4.1151714, y: 0.675, z: 145.68289}
+    - collectibleType: 0
+      pos: {x: -3.4873307, y: 0.675, z: 147.00252}
+    - collectibleType: 0
+      pos: {x: -2.8311596, y: 0.675, z: 148.40585}
+    - collectibleType: 0
+      pos: {x: -1.8092555, y: 0.675, z: 149.68738}
+    - collectibleType: 0
+      pos: {x: -0.80025256, y: 0.675, z: 150.47334}
+    - collectibleType: 0
+      pos: {x: 0.26378772, y: 0.675, z: 150.67314}
+    - collectibleType: 0
+      pos: {x: 1.3935868, y: 0.675, z: 149.771}
+    - collectibleType: 0
+      pos: {x: 2.1739557, y: 0.675, z: 148.65216}
+    - collectibleType: 0
+      pos: {x: 2.9922016, y: 0.675, z: 147.5332}
+    - collectibleType: 0
+      pos: {x: 3.4877758, y: 0.675, z: 146.35059}
+    - collectibleType: 0
+      pos: {x: 4.0600214, y: 0.675, z: 145.13037}
+    - collectibleType: 0
+      pos: {x: 4.479137, y: 0.675, z: 143.96011}
+    - collectibleType: 0
+      pos: {x: 4.9440737, y: 0.675, z: 142.9534}
+    - collectibleType: 0
+      pos: {x: -4.7383385, y: 0.675, z: 144.06259}
+    - collectibleType: 2
+      pos: {x: -4.776704, y: 0.67499983, z: 166.70978}
+    - collectibleType: 2
+      pos: {x: -3.5625074, y: 0.6749997, z: 166.7051}
+    - collectibleType: 2
+      pos: {x: -2.1859257, y: 0.675, z: 166.68877}
+    - collectibleType: 2
+      pos: {x: -0.8617203, y: 0.6749998, z: 166.56116}
+    - collectibleType: 2
+      pos: {x: 0.43729207, y: 0.6749998, z: 166.55603}
+    - collectibleType: 2
+      pos: {x: 1.6540322, y: 0.6749997, z: 166.68489}
+    - collectibleType: 2
+      pos: {x: 2.5873818, y: 0.6749998, z: 166.54774}
+    - collectibleType: 2
+      pos: {x: 3.796808, y: 0.6749997, z: 166.54308}
+    - collectibleType: 2
+      pos: {x: 4.8560414, y: 0.67499995, z: 166.53021}
+    - collectibleType: 2
+      pos: {x: -4.953645, y: 0.67499983, z: 168.29698}
+    - collectibleType: 2
+      pos: {x: -3.6631503, y: 0.6749998, z: 168.28377}
+    - collectibleType: 2
+      pos: {x: -2.3209817, y: 0.6749997, z: 168.32426}
+    - collectibleType: 2
+      pos: {x: -0.88348675, y: 0.6749997, z: 168.309}
+    - collectibleType: 2
+      pos: {x: 0.5515883, y: 0.675, z: 168.31294}
+    - collectibleType: 2
+      pos: {x: 1.6708856, y: 0.6749997, z: 168.2275}
+    - collectibleType: 2
+      pos: {x: 2.8160138, y: 0.6750001, z: 168.22166}
+    - collectibleType: 2
+      pos: {x: 4.01429, y: 0.6749998, z: 168.31252}
+    - collectibleType: 2
+      pos: {x: 4.907791, y: 0.67499983, z: 168.30318}
+    - collectibleType: 1
+      pos: {x: -0.71051997, y: 0.49998966, z: 183.31207}
+    - collectibleType: 1
+      pos: {x: 0.017678274, y: 0.49999297, z: 183.30357}
+    - collectibleType: 1
+      pos: {x: -0.34872213, y: 0.4999898, z: 184.21213}
+    - collectibleType: 1
+      pos: {x: 2.5779684, y: 0.4999892, z: 187.52069}
+    - collectibleType: 1
+      pos: {x: 3.3895466, y: 0.5000001, z: 187.60796}
+    - collectibleType: 1
+      pos: {x: 3.0143287, y: 0.4999898, z: 188.15926}
+    - collectibleType: 1
+      pos: {x: -4.0174923, y: 0.49994802, z: 187.4922}
+    - collectibleType: 1
+      pos: {x: -3.273011, y: 0.49998152, z: 187.29243}
+    - collectibleType: 1
+      pos: {x: -3.6992555, y: 0.5004522, z: 187.97684}
+    platforms:
+    - pos: {x: 0, y: 0, z: 0}
+    - pos: {x: 0, y: 0, z: 90.05}
+    - pos: {x: 0, y: 0, z: 180.1}
+    targetValue: 0a0000000f0000000f000000
+    levelind: 2
+  - collectibles:
+    - collectibleType: 2
+      pos: {x: -3.8118865, y: 0.675, z: -16.488466}
+    - collectibleType: 2
+      pos: {x: -2.835863, y: 0.67499995, z: -16.599617}
+    - collectibleType: 2
+      pos: {x: -3.7883186, y: 0.6750001, z: -15.161431}
+    - collectibleType: 2
+      pos: {x: -2.891319, y: 0.67499995, z: -15.2138}
+    - collectibleType: 2
+      pos: {x: 2.86245, y: 0.67499995, z: -16.64528}
+    - collectibleType: 2
+      pos: {x: 3.5481637, y: 0.67499995, z: -16.64528}
+    - collectibleType: 2
+      pos: {x: 2.9432504, y: 0.67499995, z: -15.5904255}
+    - collectibleType: 2
+      pos: {x: 3.5967555, y: 0.67499995, z: -15.505753}
+    - collectibleType: 2
+      pos: {x: 1.0113554, y: -1308191.2, z: -1.3541911}
+    - collectibleType: 2
+      pos: {x: 478.40878, y: -1242437.8, z: 699.8956}
+    - collectibleType: 2
+      pos: {x: -0.57739896, y: 0.67500013, z: -3.846372}
+    - collectibleType: 2
+      pos: {x: -0.06856797, y: 0.67499995, z: -3.7297053}
+    - collectibleType: 2
+      pos: {x: -0.59549135, y: 0.6749999, z: -2.539568}
+    - collectibleType: 2
+      pos: {x: -0.12268496, y: 0.67499995, z: -2.4814415}
+    - collectibleType: 2
+      pos: {x: 0.44064343, y: 0.6749999, z: -2.4814415}
+    - collectibleType: 2
+      pos: {x: 0.50151056, y: 0.6749999, z: -3.69479}
+    - collectibleType: 2
+      pos: {x: -1.1840858, y: 0.67499995, z: -3.6425211}
+    - collectibleType: 2
+      pos: {x: -1.1869315, y: 0.67499995, z: -2.5395682}
+    - collectibleType: 1
+      pos: {x: -0.20932323, y: 0.4999713, z: 54.27085}
+    - collectibleType: 1
+      pos: {x: 0.61899364, y: 0.49999017, z: 55.0671}
+    - collectibleType: 1
+      pos: {x: -0.18799242, y: 0.49999273, z: 55.52068}
+    - collectibleType: 1
+      pos: {x: -1.8240218, y: 0.49999836, z: 62.22807}
+    - collectibleType: 1
+      pos: {x: -2.7478297, y: 0.5003544, z: 62.344044}
+    - collectibleType: 1
+      pos: {x: -3.696849, y: 0.49988896, z: 62.171658}
+    - collectibleType: 1
+      pos: {x: -0.3486037, y: 0.49999002, z: 62.172306}
+    - collectibleType: 1
+      pos: {x: 1.0805713, y: 0.49999142, z: 62.001778}
+    - collectibleType: 1
+      pos: {x: 2.0599115, y: 0.4997936, z: 62.227375}
+    - collectibleType: 1
+      pos: {x: 3.544012, y: 0.50004137, z: 62.286236}
+    - collectibleType: 1
+      pos: {x: -2.7702913, y: 0.49998873, z: 75.59847}
+    - collectibleType: 1
+      pos: {x: -2.1813097, y: 0.50029325, z: 76.501595}
+    - collectibleType: 1
+      pos: {x: -2.9906728, y: 0.4999961, z: 76.97797}
+    - collectibleType: 1
+      pos: {x: 2.7029855, y: 0.49999058, z: 76.040665}
+    - collectibleType: 1
+      pos: {x: 3.67033, y: 0.49998993, z: 75.96496}
+    - collectibleType: 1
+      pos: {x: 2.804489, y: 0.65811306, z: 76.98391}
+    - collectibleType: 0
+      pos: {x: -0.72411263, y: 0.675, z: 90.93553}
+    - collectibleType: 0
+      pos: {x: -0.06111458, y: 0.675, z: 90.824745}
+    - collectibleType: 0
+      pos: {x: 0.6831319, y: 0.675, z: 90.84297}
+    - collectibleType: 0
+      pos: {x: 0.6885499, y: 0.675, z: 92.08998}
+    - collectibleType: 0
+      pos: {x: -0.08279854, y: 0.675, z: 92.07938}
+    - collectibleType: 0
+      pos: {x: -0.7605032, y: 0.675, z: 92.079636}
+    - collectibleType: 0
+      pos: {x: -4.51542, y: 0.675, z: 123.589386}
+    - collectibleType: 0
+      pos: {x: -3.9938781, y: 0.675, z: 121.50352}
+    - collectibleType: 0
+      pos: {x: -3.4414577, y: 0.675, z: 119.56801}
+    - collectibleType: 0
+      pos: {x: -2.8776798, y: 0.675, z: 118.05835}
+    - collectibleType: 0
+      pos: {x: -2.4104571, y: 0.675, z: 116.63432}
+    - collectibleType: 0
+      pos: {x: -1.8333018, y: 0.675, z: 115.88479}
+    - collectibleType: 0
+      pos: {x: -1.2026882, y: 0.675, z: 114.77089}
+    - collectibleType: 0
+      pos: {x: -0.3672789, y: 0.675, z: 114.51595}
+    - collectibleType: 0
+      pos: {x: 0.4724787, y: 0.675, z: 114.51599}
+    - collectibleType: 0
+      pos: {x: 1.2272377, y: 0.675, z: 115.02782}
+    - collectibleType: 0
+      pos: {x: 2.0343118, y: 0.675, z: 116.35814}
+    - collectibleType: 0
+      pos: {x: 2.9228275, y: 0.675, z: 118.35193}
+    - collectibleType: 0
+      pos: {x: 3.6085, y: 0.675, z: 120.5164}
+    - collectibleType: 0
+      pos: {x: 4.3555093, y: 0.675, z: 122.87449}
+    - collectibleType: 0
+      pos: {x: 4.8997974, y: 0.675, z: 125.11957}
+    - collectibleType: 0
+      pos: {x: -4.967969, y: 0.675, z: 126.365234}
+    - collectibleType: 0
+      pos: {x: 5.120921, y: 0.675, z: 127.82167}
+    - collectibleType: 0
+      pos: {x: -5.189482, y: -88234.95, z: 29.781834}
+    - collectibleType: 0
+      pos: {x: -5.0285454, y: 0.675, z: 142.76888}
+    - collectibleType: 0
+      pos: {x: -4.1151714, y: 0.675, z: 145.68289}
+    - collectibleType: 0
+      pos: {x: -3.4873307, y: 0.675, z: 147.00252}
+    - collectibleType: 0
+      pos: {x: -2.8311596, y: 0.675, z: 148.40585}
+    - collectibleType: 0
+      pos: {x: -1.8092555, y: 0.675, z: 149.68738}
+    - collectibleType: 0
+      pos: {x: -0.80025256, y: 0.675, z: 150.47334}
+    - collectibleType: 0
+      pos: {x: 0.26378772, y: 0.675, z: 150.67314}
+    - collectibleType: 0
+      pos: {x: 1.3935868, y: 0.675, z: 149.771}
+    - collectibleType: 0
+      pos: {x: 2.1739557, y: 0.675, z: 148.65216}
+    - collectibleType: 0
+      pos: {x: 2.9922016, y: 0.675, z: 147.5332}
+    - collectibleType: 0
+      pos: {x: 3.4877758, y: 0.675, z: 146.35059}
+    - collectibleType: 0
+      pos: {x: 4.0600214, y: 0.675, z: 145.13037}
+    - collectibleType: 0
+      pos: {x: 4.479137, y: 0.675, z: 143.96011}
+    - collectibleType: 0
+      pos: {x: 4.9440737, y: 0.675, z: 142.9534}
+    - collectibleType: 0
+      pos: {x: -4.7383385, y: 0.675, z: 144.06259}
+    - collectibleType: 2
+      pos: {x: -4.776704, y: 0.67499983, z: 166.70978}
+    - collectibleType: 2
+      pos: {x: -3.5625074, y: 0.6749997, z: 166.7051}
+    - collectibleType: 2
+      pos: {x: -2.1859257, y: 0.675, z: 166.68877}
+    - collectibleType: 2
+      pos: {x: -0.8617203, y: 0.6749998, z: 166.56116}
+    - collectibleType: 2
+      pos: {x: 0.43729207, y: 0.6749998, z: 166.55603}
+    - collectibleType: 2
+      pos: {x: 1.6540322, y: 0.6749997, z: 166.68489}
+    - collectibleType: 2
+      pos: {x: 2.5873818, y: 0.6749998, z: 166.54774}
+    - collectibleType: 2
+      pos: {x: 3.796808, y: 0.6749997, z: 166.54308}
+    - collectibleType: 2
+      pos: {x: 4.8560414, y: 0.67499995, z: 166.53021}
+    - collectibleType: 2
+      pos: {x: -4.953645, y: 0.67499983, z: 168.29698}
+    - collectibleType: 2
+      pos: {x: -3.6631503, y: 0.6749998, z: 168.28377}
+    - collectibleType: 2
+      pos: {x: -2.3209817, y: 0.6749997, z: 168.32426}
+    - collectibleType: 2
+      pos: {x: -0.88348675, y: 0.6749997, z: 168.309}
+    - collectibleType: 2
+      pos: {x: 0.5515883, y: 0.675, z: 168.31294}
+    - collectibleType: 2
+      pos: {x: 1.6708856, y: 0.6749997, z: 168.2275}
+    - collectibleType: 2
+      pos: {x: 2.8160138, y: 0.6750001, z: 168.22166}
+    - collectibleType: 2
+      pos: {x: 4.01429, y: 0.6749998, z: 168.31252}
+    - collectibleType: 2
+      pos: {x: 4.907791, y: 0.67499983, z: 168.30318}
+    - collectibleType: 1
+      pos: {x: -0.71051997, y: 0.49998966, z: 183.31207}
+    - collectibleType: 1
+      pos: {x: 0.017678274, y: 0.49999297, z: 183.30357}
+    - collectibleType: 1
+      pos: {x: -0.34872213, y: 0.4999898, z: 184.21213}
+    - collectibleType: 1
+      pos: {x: 2.5779684, y: 0.4999892, z: 187.52069}
+    - collectibleType: 1
+      pos: {x: 3.3895466, y: 0.5000001, z: 187.60796}
+    - collectibleType: 1
+      pos: {x: 3.0143287, y: 0.4999898, z: 188.15926}
+    - collectibleType: 1
+      pos: {x: -4.0174923, y: 0.49994802, z: 187.4922}
+    - collectibleType: 1
+      pos: {x: -3.273011, y: 0.49998152, z: 187.29243}
+    - collectibleType: 1
+      pos: {x: -3.6992555, y: 0.5004522, z: 187.97684}
+    platforms:
+    - pos: {x: 0, y: 0, z: 0}
+    - pos: {x: 0, y: 0, z: 90.05}
+    - pos: {x: 0, y: 0, z: 180.1}
+    targetValue: 090000000b0000000b000000
+    levelind: 3
+  - collectibles:
+    - collectibleType: 0
+      pos: {x: -4.8222795, y: 0.675, z: -28.285097}
+    - collectibleType: 0
+      pos: {x: -4.242316, y: 0.675, z: -28.392685}
+    - collectibleType: 0
+      pos: {x: -3.5435112, y: 0.675, z: -28.419394}
+    - collectibleType: 0
+      pos: {x: -2.885297, y: 0.675, z: -28.285097}
+    - collectibleType: 0
+      pos: {x: -2.1992822, y: 0.675, z: -28.285097}
+    - collectibleType: 0
+      pos: {x: -1.5536216, y: 0.675, z: -28.285099}
+    - collectibleType: 0
+      pos: {x: -1.0290223, y: 0.675, z: -28.285097}
+    - collectibleType: 0
+      pos: {x: -0.42371538, y: 0.675, z: -28.285097}
+    - collectibleType: 0
+      pos: {x: 0.22194546, y: 0.675, z: -28.285097}
+    - collectibleType: 0
+      pos: {x: 0.7868993, y: 0.675, z: -28.285099}
+    - collectibleType: 0
+      pos: {x: 1.3922052, y: 0.675, z: -28.285097}
+    - collectibleType: 0
+      pos: {x: 1.916805, y: 0.675, z: -28.285099}
+    - collectibleType: 0
+      pos: {x: 19.033197, y: -1341116.8, z: -62.5255}
+    - collectibleType: 0
+      pos: {x: 3.2484808, y: 0.675, z: -28.285099}
+    - collectibleType: 0
+      pos: {x: 4.0366745, y: 0.675, z: -28.376028}
+    - collectibleType: 0
+      pos: {x: 4.8176174, y: 0.675, z: -28.429138}
+    - collectibleType: 1
+      pos: {x: -2.1537933, y: 0.49999118, z: -27.184927}
+    - collectibleType: 1
+      pos: {x: -1.6834141, y: 0.50000095, z: -26.025576}
+    - collectibleType: 1
+      pos: {x: -1.0732683, y: 0.5002967, z: -24.399164}
+    - collectibleType: 1
+      pos: {x: -0.23492247, y: 0.50029707, z: -22.361942}
+    - collectibleType: 1
+      pos: {x: 0.74284047, y: 0.49999785, z: -24.196962}
+    - collectibleType: 1
+      pos: {x: 1.4778261, y: 0.49998993, z: -25.73023}
+    - collectibleType: 1
+      pos: {x: 2.5064363, y: 0.49999577, z: -27.314356}
+    - collectibleType: 0
+      pos: {x: 2.6193419, y: 0.675, z: -28.2675}
+    - collectibleType: 1
+      pos: {x: -0.24313875, y: 0.4999906, z: -5.9130726}
+    - collectibleType: 1
+      pos: {x: -1.2417753, y: 0.50047433, z: -3.6577544}
+    - collectibleType: 1
+      pos: {x: 0.90602094, y: 0.49999774, z: -3.6434965}
+    - collectibleType: 1
+      pos: {x: -0.33851698, y: 0.50047106, z: -1.1473048}
+    - collectibleType: 1
+      pos: {x: 2.931172, y: 0.5002329, z: 6.189682}
+    - collectibleType: 1
+      pos: {x: 2.0405395, y: 0.4999974, z: 8.295877}
+    - collectibleType: 1
+      pos: {x: 3.8150558, y: 0.49999785, z: 8.30779}
+    - collectibleType: 1
+      pos: {x: 3.1083515, y: 0.50011116, z: 10.483537}
+    - collectibleType: 1
+      pos: {x: -3.3182287, y: 0.49999452, z: 6.2733097}
+    - collectibleType: 1
+      pos: {x: -4.3864594, y: 0.4999478, z: 8.254103}
+    - collectibleType: 1
+      pos: {x: -2.5444732, y: 0.49999976, z: 7.899697}
+    - collectibleType: 1
+      pos: {x: -3.5463054, y: 0.4999991, z: 9.83947}
+    - collectibleType: 1
+      pos: {x: -0.21013157, y: 0.500001, z: 18.238354}
+    - collectibleType: 1
+      pos: {x: -1.1561397, y: 0.4999895, z: 20.562098}
+    - collectibleType: 1
+      pos: {x: 0.94337416, y: 0.49999022, z: 20.250803}
+    - collectibleType: 1
+      pos: {x: -0.09013105, y: 0.50000226, z: 22.139772}
+    - collectibleType: 2
+      pos: {x: 0.2502888, y: 0.6750001, z: 54.020256}
+    - collectibleType: 2
+      pos: {x: -0.95968395, y: 0.67500013, z: 54.209915}
+    - collectibleType: 2
+      pos: {x: -2.0301065, y: 0.675, z: 55.144863}
+    - collectibleType: 2
+      pos: {x: -2.8396292, y: 0.675, z: 56.6181}
+    - collectibleType: 2
+      pos: {x: -3.054872, y: 0.6750001, z: 57.999916}
+    - collectibleType: 2
+      pos: {x: -2.4934123, y: 0.675, z: 59.323143}
+    - collectibleType: 2
+      pos: {x: -1.3567933, y: 0.67499995, z: 60.539303}
+    - collectibleType: 2
+      pos: {x: 0.5425111, y: 0.675, z: 60.657635}
+    - collectibleType: 2
+      pos: {x: 1.4612976, y: 0.675, z: 59.874508}
+    - collectibleType: 2
+      pos: {x: 2.0206556, y: 0.675, z: 58.678658}
+    - collectibleType: 2
+      pos: {x: 2.222668, y: 0.67500013, z: 57.357014}
+    - collectibleType: 2
+      pos: {x: 1.8334306, y: 0.6750001, z: 55.77621}
+    - collectibleType: 2
+      pos: {x: 1.1626557, y: 0.675, z: 54.721504}
+    - collectibleType: 2
+      pos: {x: -0.37211883, y: 0.675, z: 60.84064}
+    - collectibleType: 1
+      pos: {x: -4.943977, y: 0.49999005, z: 73.58408}
+    - collectibleType: 1
+      pos: {x: -4.4943066, y: 0.4999937, z: 74.229004}
+    - collectibleType: 1
+      pos: {x: -3.7922132, y: 0.49999046, z: 75.195496}
+    - collectibleType: 1
+      pos: {x: -3.019725, y: 0.4999991, z: 76.556305}
+    - collectibleType: 1
+      pos: {x: -2.1253917, y: 0.500003, z: 78.073906}
+    - collectibleType: 1
+      pos: {x: -1.1539843, y: 0.4999903, z: 79.288315}
+    - collectibleType: 1
+      pos: {x: -0.24978858, y: 0.49999952, z: 80.820885}
+    - collectibleType: 1
+      pos: {x: 0.7377817, y: 0.4999949, z: 82.172874}
+    - collectibleType: 1
+      pos: {x: 1.5547894, y: 0.4999934, z: 83.6438}
+    - collectibleType: 1
+      pos: {x: 2.4384286, y: 0.49994272, z: 85.11853}
+    - collectibleType: 1
+      pos: {x: 3.276594, y: 0.5005747, z: 86.87816}
+    - collectibleType: 1
+      pos: {x: 4.560228, y: 0.5004165, z: 88.49503}
+    - collectibleType: 1
+      pos: {x: -5.0540943, y: 0.4999979, z: 89.18448}
+    - collectibleType: 1
+      pos: {x: -4.2295027, y: 0.4999903, z: 88.01695}
+    - collectibleType: 1
+      pos: {x: -3.3376844, y: 0.4999987, z: 86.61423}
+    - collectibleType: 1
+      pos: {x: -2.5947888, y: 0.49999905, z: 85.17193}
+    - collectibleType: 1
+      pos: {x: -1.8120357, y: 0.5004848, z: 83.586876}
+    - collectibleType: 1
+      pos: {x: -1.2265557, y: 0.4999779, z: 82.14008}
+    - collectibleType: 1
+      pos: {x: 0.68989533, y: 0.5005599, z: 79.61066}
+    - collectibleType: 1
+      pos: {x: 1.5168905, y: 0.49999475, z: 78.953896}
+    - collectibleType: 1
+      pos: {x: 2.087572, y: 0.500459, z: 77.625305}
+    - collectibleType: 1
+      pos: {x: 2.749256, y: 0.49999923, z: 76.73304}
+    - collectibleType: 1
+      pos: {x: 3.547601, y: 0.5005031, z: 75.75426}
+    - collectibleType: 1
+      pos: {x: 4.284981, y: 0.5002186, z: 74.84579}
+    - collectibleType: 1
+      pos: {x: 4.8319035, y: 0.4999909, z: 74.19319}
+    - collectibleType: 0
+      pos: {x: -3.9660618, y: 0.675, z: 111.926895}
+    - collectibleType: 0
+      pos: {x: -3.3952389, y: 0.675, z: 110.983696}
+    - collectibleType: 0
+      pos: {x: -2.7702343, y: 0.675, z: 109.88627}
+    - collectibleType: 0
+      pos: {x: -4.1753983, y: 0.675, z: 108.63252}
+    - collectibleType: 0
+      pos: {x: -3.4488957, y: 0.675, z: 109.35919}
+    - collectibleType: 0
+      pos: {x: 3.791016, y: 0.675, z: 112.56013}
+    - collectibleType: 0
+      pos: {x: 3.1587753, y: 0.675, z: 111.677956}
+    - collectibleType: 0
+      pos: {x: 2.6614165, y: 0.675, z: 110.60839}
+    - collectibleType: 0
+      pos: {x: 3.176729, y: 0.675, z: 110.03944}
+    - collectibleType: 0
+      pos: {x: 3.8098693, y: 0.675, z: 109.5972}
+    - collectibleType: 0
+      pos: {x: -0.07602769, y: 0.675, z: 123.42767}
+    - collectibleType: 0
+      pos: {x: -0.51733524, y: 0.675, z: 122.08891}
+    - collectibleType: 0
+      pos: {x: 0.3712696, y: 0.675, z: 122.13464}
+    - collectibleType: 0
+      pos: {x: -0.049973935, y: 0.675, z: 120.83871}
+    - collectibleType: 0
+      pos: {x: -5.0221257, y: 0.675, z: 146.0665}
+    - collectibleType: 0
+      pos: {x: -4.6149535, y: 0.675, z: 147.31052}
+    - collectibleType: 0
+      pos: {x: -4.0464177, y: 0.675, z: 148.50197}
+    - collectibleType: 0
+      pos: {x: -3.308723, y: 0.675, z: 149.7487}
+    - collectibleType: 0
+      pos: {x: -2.4833887, y: 0.675, z: 151.20036}
+    - collectibleType: 0
+      pos: {x: -1.8997583, y: 0.675, z: 152.03725}
+    - collectibleType: 0
+      pos: {x: -0.82144624, y: 0.675, z: 152.69249}
+    - collectibleType: 0
+      pos: {x: 0.08974069, y: 0.675, z: 153.02924}
+    - collectibleType: 0
+      pos: {x: 1.04987, y: 0.675, z: 152.29156}
+    - collectibleType: 0
+      pos: {x: 1.6571608, y: 0.675, z: 151.48454}
+    - collectibleType: 0
+      pos: {x: 2.5496676, y: 0.675, z: 150.08664}
+    - collectibleType: 0
+      pos: {x: 3.0805526, y: 0.675, z: 149.16556}
+    - collectibleType: 0
+      pos: {x: 3.7432785, y: 0.675, z: 147.97098}
+    - collectibleType: 0
+      pos: {x: 4.239296, y: 0.675, z: 147.02621}
+    - collectibleType: 0
+      pos: {x: 4.619358, y: 0.675, z: 145.9356}
+    - collectibleType: 0
+      pos: {x: -5.083381, y: 0.675, z: 160.99521}
+    - collectibleType: 0
+      pos: {x: -4.4563913, y: 0.675, z: 159.10043}
+    - collectibleType: 0
+      pos: {x: -4.092171, y: 0.675, z: 157.52939}
+    - collectibleType: 0
+      pos: {x: -3.5029535, y: 0.675, z: 155.8088}
+    - collectibleType: 0
+      pos: {x: -2.9544425, y: 0.675, z: 154.62088}
+    - collectibleType: 0
+      pos: {x: -2.4002666, y: 0.675, z: 153.51228}
+    - collectibleType: 0
+      pos: {x: -1.291759, y: 0.675, z: 151.23149}
+    - collectibleType: 0
+      pos: {x: -0.5282366, y: 0.675, z: 150.4681}
+    - collectibleType: 0
+      pos: {x: 0.49633175, y: 0.675, z: 151.14243}
+    - collectibleType: 0
+      pos: {x: 1.6182168, y: 0.675, z: 153.4874}
+    - collectibleType: 0
+      pos: {x: 2.3372908, y: 0.675, z: 155.10431}
+    - collectibleType: 0
+      pos: {x: 3.1052427, y: 0.675, z: 156.60522}
+    - collectibleType: 0
+      pos: {x: 3.9816868, y: 0.675, z: 158.56339}
+    - collectibleType: 0
+      pos: {x: 4.6796193, y: 0.675, z: 160.57675}
+    - collectibleType: 1
+      pos: {x: -3.9900723, y: 0.5003039, z: 176.2839}
+    - collectibleType: 1
+      pos: {x: -3.9678583, y: 0.50048673, z: 174.65756}
+    - collectibleType: 1
+      pos: {x: -3.947757, y: 0.4999985, z: 173.48953}
+    - collectibleType: 1
+      pos: {x: -3.9251676, y: 0.49998993, z: 172.6941}
+    - collectibleType: 1
+      pos: {x: -3.0954685, y: 0.49999636, z: 172.40659}
+    - collectibleType: 1
+      pos: {x: -2.4147298, y: 0.5000025, z: 172.4071}
+    - collectibleType: 1
+      pos: {x: -2.4066703, y: 0.4999962, z: 173.904}
+    - collectibleType: 1
+      pos: {x: -2.4576826, y: 0.4999943, z: 175.80124}
+    - collectibleType: 1
+      pos: {x: -3.1006942, y: 0.49999487, z: 176.40723}
+    - collectibleType: 1
+      pos: {x: 2.2518687, y: 0.49999425, z: 176.52878}
+    - collectibleType: 1
+      pos: {x: 2.2244282, y: 0.49998987, z: 175.10419}
+    - collectibleType: 1
+      pos: {x: 2.145292, y: 0.5003611, z: 173.59142}
+    - collectibleType: 1
+      pos: {x: 2.1420588, y: 0.49999148, z: 172.59845}
+    - collectibleType: 1
+      pos: {x: 2.8072195, y: 0.49999297, z: 172.79095}
+    - collectibleType: 1
+      pos: {x: 3.4952695, y: 0.499994, z: 172.50093}
+    - collectibleType: 1
+      pos: {x: 3.6551168, y: 0.49994832, z: 174.00897}
+    - collectibleType: 1
+      pos: {x: 3.7046185, y: 0.4999898, z: 175.68268}
+    - collectibleType: 1
+      pos: {x: 3.7114596, y: 0.49999404, z: 176.77919}
+    - collectibleType: 1
+      pos: {x: 3.2180736, y: 0.49998716, z: 176.65407}
+    - collectibleType: 1
+      pos: {x: -0.38356227, y: 0.5000009, z: 198.20297}
+    - collectibleType: 1
+      pos: {x: -0.74159425, y: 0.49999064, z: 196.58125}
+    - collectibleType: 1
+      pos: {x: 0.012414496, y: 0.49999124, z: 196.58214}
+    platforms:
+    - pos: {x: 0, y: 0, z: 0}
+    - pos: {x: 0, y: 0, z: 90.05}
+    - pos: {x: 0, y: 0, z: 180.1}
+    targetValue: 0b0000000d0000000d000000
+    levelind: 4
+  - collectibles:
+    - collectibleType: 0
+      pos: {x: -4.8222795, y: 0.675, z: -28.285097}
+    - collectibleType: 0
+      pos: {x: -4.242316, y: 0.675, z: -28.392685}
+    - collectibleType: 0
+      pos: {x: -3.5435112, y: 0.675, z: -28.419394}
+    - collectibleType: 0
+      pos: {x: -2.885297, y: 0.675, z: -28.285097}
+    - collectibleType: 0
+      pos: {x: -2.1992822, y: 0.675, z: -28.285097}
+    - collectibleType: 0
+      pos: {x: -1.5536216, y: 0.675, z: -28.285099}
+    - collectibleType: 0
+      pos: {x: -1.0290223, y: 0.675, z: -28.285097}
+    - collectibleType: 0
+      pos: {x: -0.42371538, y: 0.675, z: -28.285097}
+    - collectibleType: 0
+      pos: {x: 0.22194546, y: 0.675, z: -28.285097}
+    - collectibleType: 0
+      pos: {x: 0.7868993, y: 0.675, z: -28.285099}
+    - collectibleType: 0
+      pos: {x: 1.3922052, y: 0.675, z: -28.285097}
+    - collectibleType: 0
+      pos: {x: 1.916805, y: 0.675, z: -28.285099}
+    - collectibleType: 0
+      pos: {x: 19.033197, y: -1341116.8, z: -62.5255}
+    - collectibleType: 0
+      pos: {x: 3.2484808, y: 0.675, z: -28.285099}
+    - collectibleType: 0
+      pos: {x: 4.0366745, y: 0.675, z: -28.376028}
+    - collectibleType: 0
+      pos: {x: 4.8176174, y: 0.675, z: -28.429138}
+    - collectibleType: 1
+      pos: {x: -2.1537933, y: 0.49999118, z: -27.184927}
+    - collectibleType: 1
+      pos: {x: -1.6834141, y: 0.50000095, z: -26.025576}
+    - collectibleType: 1
+      pos: {x: -1.0732683, y: 0.5002967, z: -24.399164}
+    - collectibleType: 1
+      pos: {x: -0.23492247, y: 0.50029707, z: -22.361942}
+    - collectibleType: 1
+      pos: {x: 0.74284047, y: 0.49999785, z: -24.196962}
+    - collectibleType: 1
+      pos: {x: 1.4778261, y: 0.49998993, z: -25.73023}
+    - collectibleType: 1
+      pos: {x: 2.5064363, y: 0.49999577, z: -27.314356}
+    - collectibleType: 0
+      pos: {x: 2.6193419, y: 0.675, z: -28.2675}
+    - collectibleType: 1
+      pos: {x: -0.24313875, y: 0.4999906, z: -5.9130726}
+    - collectibleType: 1
+      pos: {x: -1.2417753, y: 0.50047433, z: -3.6577544}
+    - collectibleType: 1
+      pos: {x: 0.90602094, y: 0.49999774, z: -3.6434965}
+    - collectibleType: 1
+      pos: {x: -0.33851698, y: 0.50047106, z: -1.1473048}
+    - collectibleType: 1
+      pos: {x: 2.931172, y: 0.5002329, z: 6.189682}
+    - collectibleType: 1
+      pos: {x: 2.0405395, y: 0.4999974, z: 8.295877}
+    - collectibleType: 1
+      pos: {x: 3.8150558, y: 0.49999785, z: 8.30779}
+    - collectibleType: 1
+      pos: {x: 3.1083515, y: 0.50011116, z: 10.483537}
+    - collectibleType: 1
+      pos: {x: -3.3182287, y: 0.49999452, z: 6.2733097}
+    - collectibleType: 1
+      pos: {x: -4.3864594, y: 0.4999478, z: 8.254103}
+    - collectibleType: 1
+      pos: {x: -2.5444732, y: 0.49999976, z: 7.899697}
+    - collectibleType: 1
+      pos: {x: -3.5463054, y: 0.4999991, z: 9.83947}
+    - collectibleType: 1
+      pos: {x: -0.21013157, y: 0.500001, z: 18.238354}
+    - collectibleType: 1
+      pos: {x: -1.1561397, y: 0.4999895, z: 20.562098}
+    - collectibleType: 1
+      pos: {x: 0.94337416, y: 0.49999022, z: 20.250803}
+    - collectibleType: 1
+      pos: {x: -0.09013105, y: 0.50000226, z: 22.139772}
+    - collectibleType: 2
+      pos: {x: 0.2502888, y: 0.6750001, z: 54.020256}
+    - collectibleType: 2
+      pos: {x: -0.95968395, y: 0.67500013, z: 54.209915}
+    - collectibleType: 2
+      pos: {x: -2.0301065, y: 0.675, z: 55.144863}
+    - collectibleType: 2
+      pos: {x: -2.8396292, y: 0.675, z: 56.6181}
+    - collectibleType: 2
+      pos: {x: -3.054872, y: 0.6750001, z: 57.999916}
+    - collectibleType: 2
+      pos: {x: -2.4934123, y: 0.675, z: 59.323143}
+    - collectibleType: 2
+      pos: {x: -1.3567933, y: 0.67499995, z: 60.539303}
+    - collectibleType: 2
+      pos: {x: 0.5425111, y: 0.675, z: 60.657635}
+    - collectibleType: 2
+      pos: {x: 1.4612976, y: 0.675, z: 59.874508}
+    - collectibleType: 2
+      pos: {x: 2.0206556, y: 0.675, z: 58.678658}
+    - collectibleType: 2
+      pos: {x: 2.222668, y: 0.67500013, z: 57.357014}
+    - collectibleType: 2
+      pos: {x: 1.8334306, y: 0.6750001, z: 55.77621}
+    - collectibleType: 2
+      pos: {x: 1.1626557, y: 0.675, z: 54.721504}
+    - collectibleType: 2
+      pos: {x: -0.37211883, y: 0.675, z: 60.84064}
+    - collectibleType: 1
+      pos: {x: -4.943977, y: 0.49999005, z: 73.58408}
+    - collectibleType: 1
+      pos: {x: -4.4943066, y: 0.4999937, z: 74.229004}
+    - collectibleType: 1
+      pos: {x: -3.7922132, y: 0.49999046, z: 75.195496}
+    - collectibleType: 1
+      pos: {x: -3.019725, y: 0.4999991, z: 76.556305}
+    - collectibleType: 1
+      pos: {x: -2.1253917, y: 0.500003, z: 78.073906}
+    - collectibleType: 1
+      pos: {x: -1.1539843, y: 0.4999903, z: 79.288315}
+    - collectibleType: 1
+      pos: {x: -0.24978858, y: 0.49999952, z: 80.820885}
+    - collectibleType: 1
+      pos: {x: 0.7377817, y: 0.4999949, z: 82.172874}
+    - collectibleType: 1
+      pos: {x: 1.5547894, y: 0.4999934, z: 83.6438}
+    - collectibleType: 1
+      pos: {x: 2.4384286, y: 0.49994272, z: 85.11853}
+    - collectibleType: 1
+      pos: {x: 3.276594, y: 0.5005747, z: 86.87816}
+    - collectibleType: 1
+      pos: {x: 4.560228, y: 0.5004165, z: 88.49503}
+    - collectibleType: 1
+      pos: {x: -5.0540943, y: 0.4999979, z: 89.18448}
+    - collectibleType: 1
+      pos: {x: -4.2295027, y: 0.4999903, z: 88.01695}
+    - collectibleType: 1
+      pos: {x: -3.3376844, y: 0.4999987, z: 86.61423}
+    - collectibleType: 1
+      pos: {x: -2.5947888, y: 0.49999905, z: 85.17193}
+    - collectibleType: 1
+      pos: {x: -1.8120357, y: 0.5004848, z: 83.586876}
+    - collectibleType: 1
+      pos: {x: -1.2265557, y: 0.4999779, z: 82.14008}
+    - collectibleType: 1
+      pos: {x: 0.68989533, y: 0.5005599, z: 79.61066}
+    - collectibleType: 1
+      pos: {x: 1.5168905, y: 0.49999475, z: 78.953896}
+    - collectibleType: 1
+      pos: {x: 2.087572, y: 0.500459, z: 77.625305}
+    - collectibleType: 1
+      pos: {x: 2.749256, y: 0.49999923, z: 76.73304}
+    - collectibleType: 1
+      pos: {x: 3.547601, y: 0.5005031, z: 75.75426}
+    - collectibleType: 1
+      pos: {x: 4.284981, y: 0.5002186, z: 74.84579}
+    - collectibleType: 1
+      pos: {x: 4.8319035, y: 0.4999909, z: 74.19319}
+    - collectibleType: 0
+      pos: {x: -3.9660618, y: 0.675, z: 111.926895}
+    - collectibleType: 0
+      pos: {x: -3.3952389, y: 0.675, z: 110.983696}
+    - collectibleType: 0
+      pos: {x: -2.7702343, y: 0.675, z: 109.88627}
+    - collectibleType: 0
+      pos: {x: -4.1753983, y: 0.675, z: 108.63252}
+    - collectibleType: 0
+      pos: {x: -3.4488957, y: 0.675, z: 109.35919}
+    - collectibleType: 0
+      pos: {x: 3.791016, y: 0.675, z: 112.56013}
+    - collectibleType: 0
+      pos: {x: 3.1587753, y: 0.675, z: 111.677956}
+    - collectibleType: 0
+      pos: {x: 2.6614165, y: 0.675, z: 110.60839}
+    - collectibleType: 0
+      pos: {x: 3.176729, y: 0.675, z: 110.03944}
+    - collectibleType: 0
+      pos: {x: 3.8098693, y: 0.675, z: 109.5972}
+    - collectibleType: 0
+      pos: {x: -0.07602769, y: 0.675, z: 123.42767}
+    - collectibleType: 0
+      pos: {x: -0.51733524, y: 0.675, z: 122.08891}
+    - collectibleType: 0
+      pos: {x: 0.3712696, y: 0.675, z: 122.13464}
+    - collectibleType: 0
+      pos: {x: -0.049973935, y: 0.675, z: 120.83871}
+    - collectibleType: 0
+      pos: {x: -5.0221257, y: 0.675, z: 146.0665}
+    - collectibleType: 0
+      pos: {x: -4.6149535, y: 0.675, z: 147.31052}
+    - collectibleType: 0
+      pos: {x: -4.0464177, y: 0.675, z: 148.50197}
+    - collectibleType: 0
+      pos: {x: -3.308723, y: 0.675, z: 149.7487}
+    - collectibleType: 0
+      pos: {x: -2.4833887, y: 0.675, z: 151.20036}
+    - collectibleType: 0
+      pos: {x: -1.8997583, y: 0.675, z: 152.03725}
+    - collectibleType: 0
+      pos: {x: -0.82144624, y: 0.675, z: 152.69249}
+    - collectibleType: 0
+      pos: {x: 0.08974069, y: 0.675, z: 153.02924}
+    - collectibleType: 0
+      pos: {x: 1.04987, y: 0.675, z: 152.29156}
+    - collectibleType: 0
+      pos: {x: 1.6571608, y: 0.675, z: 151.48454}
+    - collectibleType: 0
+      pos: {x: 2.5496676, y: 0.675, z: 150.08664}
+    - collectibleType: 0
+      pos: {x: 3.0805526, y: 0.675, z: 149.16556}
+    - collectibleType: 0
+      pos: {x: 3.7432785, y: 0.675, z: 147.97098}
+    - collectibleType: 0
+      pos: {x: 4.239296, y: 0.675, z: 147.02621}
+    - collectibleType: 0
+      pos: {x: 4.619358, y: 0.675, z: 145.9356}
+    - collectibleType: 0
+      pos: {x: -5.083381, y: 0.675, z: 160.99521}
+    - collectibleType: 0
+      pos: {x: -4.4563913, y: 0.675, z: 159.10043}
+    - collectibleType: 0
+      pos: {x: -4.092171, y: 0.675, z: 157.52939}
+    - collectibleType: 0
+      pos: {x: -3.5029535, y: 0.675, z: 155.8088}
+    - collectibleType: 0
+      pos: {x: -2.9544425, y: 0.675, z: 154.62088}
+    - collectibleType: 0
+      pos: {x: -2.4002666, y: 0.675, z: 153.51228}
+    - collectibleType: 0
+      pos: {x: -1.291759, y: 0.675, z: 151.23149}
+    - collectibleType: 0
+      pos: {x: -0.5282366, y: 0.675, z: 150.4681}
+    - collectibleType: 0
+      pos: {x: 0.49633175, y: 0.675, z: 151.14243}
+    - collectibleType: 0
+      pos: {x: 1.6182168, y: 0.675, z: 153.4874}
+    - collectibleType: 0
+      pos: {x: 2.3372908, y: 0.675, z: 155.10431}
+    - collectibleType: 0
+      pos: {x: 3.1052427, y: 0.675, z: 156.60522}
+    - collectibleType: 0
+      pos: {x: 3.9816868, y: 0.675, z: 158.56339}
+    - collectibleType: 0
+      pos: {x: 4.6796193, y: 0.675, z: 160.57675}
+    - collectibleType: 1
+      pos: {x: -3.9900723, y: 0.5003039, z: 176.2839}
+    - collectibleType: 1
+      pos: {x: -3.9678583, y: 0.50048673, z: 174.65756}
+    - collectibleType: 1
+      pos: {x: -3.947757, y: 0.4999985, z: 173.48953}
+    - collectibleType: 1
+      pos: {x: -3.9251676, y: 0.49998993, z: 172.6941}
+    - collectibleType: 1
+      pos: {x: -3.0954685, y: 0.49999636, z: 172.40659}
+    - collectibleType: 1
+      pos: {x: -2.4147298, y: 0.5000025, z: 172.4071}
+    - collectibleType: 1
+      pos: {x: -2.4066703, y: 0.4999962, z: 173.904}
+    - collectibleType: 1
+      pos: {x: -2.4576826, y: 0.4999943, z: 175.80124}
+    - collectibleType: 1
+      pos: {x: -3.1006942, y: 0.49999487, z: 176.40723}
+    - collectibleType: 1
+      pos: {x: 2.2518687, y: 0.49999425, z: 176.52878}
+    - collectibleType: 1
+      pos: {x: 2.2244282, y: 0.49998987, z: 175.10419}
+    - collectibleType: 1
+      pos: {x: 2.145292, y: 0.5003611, z: 173.59142}
+    - collectibleType: 1
+      pos: {x: 2.1420588, y: 0.49999148, z: 172.59845}
+    - collectibleType: 1
+      pos: {x: 2.8072195, y: 0.49999297, z: 172.79095}
+    - collectibleType: 1
+      pos: {x: 3.4952695, y: 0.499994, z: 172.50093}
+    - collectibleType: 1
+      pos: {x: 3.6551168, y: 0.49994832, z: 174.00897}
+    - collectibleType: 1
+      pos: {x: 3.7046185, y: 0.4999898, z: 175.68268}
+    - collectibleType: 1
+      pos: {x: 3.7114596, y: 0.49999404, z: 176.77919}
+    - collectibleType: 1
+      pos: {x: 3.2180736, y: 0.49998716, z: 176.65407}
+    - collectibleType: 1
+      pos: {x: -0.38356227, y: 0.5000009, z: 198.20297}
+    - collectibleType: 1
+      pos: {x: -0.74159425, y: 0.49999064, z: 196.58125}
+    - collectibleType: 1
+      pos: {x: 0.012414496, y: 0.49999124, z: 196.58214}
+    platforms:
+    - pos: {x: 0, y: 0, z: 0}
+    - pos: {x: 0, y: 0, z: 90.05}
+    - pos: {x: 0, y: 0, z: 180.1}
+    targetValue: 0f0000001100000011000000
+    levelind: 6
+  - collectibles:
+    - collectibleType: 0
+      pos: {x: -4.0036526, y: 0.675, z: -34.482742}
+    - collectibleType: 0
+      pos: {x: -3.3663268, y: 0.675, z: -34.44448}
+    - collectibleType: 0
+      pos: {x: -4.0798078, y: 0.675, z: -33.408344}
+    - collectibleType: 0
+      pos: {x: -3.4136083, y: 0.675, z: -33.479164}
+    - collectibleType: 0
+      pos: {x: -4.0796404, y: 0.675, z: -32.442207}
+    - collectibleType: 0
+      pos: {x: -3.4516222, y: 0.675, z: -32.452244}
+    - collectibleType: 0
+      pos: {x: -4.0333743, y: 0.675, z: -31.263678}
+    - collectibleType: 0
+      pos: {x: -3.494773, y: 0.675, z: -31.202076}
+    - collectibleType: 0
+      pos: {x: -4.1117363, y: 0.675, z: -29.896225}
+    - collectibleType: 0
+      pos: {x: -3.531256, y: 0.675, z: -29.896225}
+    - collectibleType: 0
+      pos: {x: -4.09714, y: 0.675, z: -28.35604}
+    - collectibleType: 0
+      pos: {x: -3.5412817, y: 0.675, z: -28.35604}
+    - collectibleType: 0
+      pos: {x: -4.093897, y: 0.675, z: -26.872171}
+    - collectibleType: 0
+      pos: {x: -3.5070825, y: 0.675, z: -26.959137}
+    - collectibleType: 0
+      pos: {x: -3.3078434, y: 0.675, z: -25.731243}
+    - collectibleType: 0
+      pos: {x: -3.0311224, y: 0.675, z: -24.840143}
+    - collectibleType: 0
+      pos: {x: -2.677843, y: 0.675, z: -24.059765}
+    - collectibleType: 0
+      pos: {x: -2.4755135, y: 0.675, z: -23.355545}
+    - collectibleType: 0
+      pos: {x: -1.9191351, y: 0.675, z: -22.394796}
+    - collectibleType: 0
+      pos: {x: -1.3461856, y: 0.675, z: -21.43073}
+    - collectibleType: 0
+      pos: {x: -0.80031145, y: 0.675, z: -20.304962}
+    - collectibleType: 0
+      pos: {x: -0.32652545, y: 0.675, z: -19.511776}
+    - collectibleType: 0
+      pos: {x: 0.19172026, y: 0.675, z: -18.678509}
+    - collectibleType: 0
+      pos: {x: 0.6904435, y: 0.675, z: -17.777948}
+    - collectibleType: 0
+      pos: {x: 1.3060802, y: 0.675, z: -16.5964}
+    - collectibleType: 0
+      pos: {x: 1.9001158, y: 0.675, z: -15.80423}
+    - collectibleType: 0
+      pos: {x: 2.558737, y: 0.675, z: -14.869123}
+    - collectibleType: 0
+      pos: {x: 3.0440764, y: 0.675, z: -14.2554455}
+    - collectibleType: 0
+      pos: {x: 3.8936176, y: 0.675, z: -13.043381}
+    - collectibleType: 0
+      pos: {x: 4.7348986, y: 0.675, z: -11.904568}
+    - collectibleType: 0
+      pos: {x: -3.8424916, y: 0.675, z: -25.36379}
+    - collectibleType: 0
+      pos: {x: -3.5573025, y: 0.675, z: -24.267714}
+    - collectibleType: 0
+      pos: {x: -3.2649934, y: 0.675, z: -23.13102}
+    - collectibleType: 0
+      pos: {x: -2.9423304, y: 0.675, z: -22.39802}
+    - collectibleType: 0
+      pos: {x: -2.3962474, y: 0.675, z: -21.29193}
+    - collectibleType: 0
+      pos: {x: -1.9518337, y: 0.675, z: -20.440868}
+    - collectibleType: 0
+      pos: {x: -1.3072517, y: 0.675, z: -19.340496}
+    - collectibleType: 0
+      pos: {x: -0.7522396, y: 0.675, z: -18.45405}
+    - collectibleType: 0
+      pos: {x: -0.17558092, y: 0.675, z: -17.706816}
+    - collectibleType: 0
+      pos: {x: 0.3678815, y: 0.675, z: -16.750725}
+    - collectibleType: 0
+      pos: {x: 1.0449729, y: 0.675, z: -15.274527}
+    - collectibleType: 0
+      pos: {x: 1.8656869, y: 0.675, z: -14.210987}
+    - collectibleType: 0
+      pos: {x: 2.6053958, y: 0.675, z: -13.273491}
+    - collectibleType: 0
+      pos: {x: 3.2004988, y: 0.675, z: -12.502953}
+    - collectibleType: 0
+      pos: {x: 4.0605745, y: 0.675, z: -11.344206}
+    - collectibleType: 0
+      pos: {x: 4.7544284, y: 0.675, z: -9.993971}
+    - collectibleType: 2
+      pos: {x: -2.7199564, y: 0.6749999, z: -26.679272}
+    - collectibleType: 2
+      pos: {x: -1.9746696, y: 0.67499995, z: -26.656727}
+    - collectibleType: 2
+      pos: {x: -1.2448792, y: 0.67499995, z: -26.65925}
+    - collectibleType: 2
+      pos: {x: -0.5571738, y: 0.675, z: -26.608006}
+    - collectibleType: 2
+      pos: {x: 0.22829863, y: 0.67499995, z: -26.74254}
+    - collectibleType: 2
+      pos: {x: 0.98392546, y: 0.67500013, z: -26.755192}
+    - collectibleType: 2
+      pos: {x: 1.8480228, y: 0.675, z: -26.831667}
+    - collectibleType: 2
+      pos: {x: 2.5874913, y: 0.6750001, z: -26.812805}
+    - collectibleType: 2
+      pos: {x: 3.2660615, y: 0.675, z: -26.87119}
+    - collectibleType: 2
+      pos: {x: 4.0983143, y: 0.675, z: -26.881481}
+    - collectibleType: 2
+      pos: {x: 4.8756714, y: 0.6750001, z: -26.857199}
+    - collectibleType: 1
+      pos: {x: -2.8985937, y: 0.5002285, z: 8.851013}
+    - collectibleType: 1
+      pos: {x: -3.197366, y: 0.4999842, z: 7.8789015}
+    - collectibleType: 1
+      pos: {x: -2.3712113, y: 0.5003087, z: 7.9908504}
+    - collectibleType: 1
+      pos: {x: -2.6377106, y: 0.49999398, z: 7.0710855}
+    - collectibleType: 1
+      pos: {x: 2.3089855, y: 0.49999064, z: 8.4550085}
+    - collectibleType: 1
+      pos: {x: 3.2002456, y: 0.50017166, z: 8.036026}
+    - collectibleType: 1
+      pos: {x: 2.8153574, y: 0.50023794, z: 7.7221184}
+    - collectibleType: 1
+      pos: {x: 2.8108172, y: 0.49999082, z: 8.676786}
+    - collectibleType: 1
+      pos: {x: 2.5549176, y: 0.499991, z: 20.77885}
+    - collectibleType: 1
+      pos: {x: 2.2730327, y: 0.50000226, z: 19.620905}
+    - collectibleType: 1
+      pos: {x: 2.8561974, y: 0.49999046, z: 19.443926}
+    - collectibleType: 1
+      pos: {x: 2.597424, y: 0.50000155, z: 18.642433}
+    - collectibleType: 1
+      pos: {x: -3.8468564, y: 0.49999976, z: 19.569944}
+    - collectibleType: 1
+      pos: {x: -3.011826, y: 0.499999, z: 19.422646}
+    - collectibleType: 1
+      pos: {x: -3.416791, y: 0.49999055, z: 18.853317}
+    - collectibleType: 1
+      pos: {x: -3.6071796, y: 0.5000012, z: 20.111212}
+    - collectibleType: 1
+      pos: {x: -0.5908184, y: 0.4999956, z: 32.88039}
+    - collectibleType: 1
+      pos: {x: -0.89317566, y: 0.5004704, z: 32.09047}
+    - collectibleType: 1
+      pos: {x: -0.14164418, y: 0.49999797, z: 31.92853}
+    - collectibleType: 1
+      pos: {x: -0.48049304, y: 0.50048363, z: 31.271029}
+    - collectibleType: 1
+      pos: {x: -2.0823781, y: 0.5003631, z: 59.859497}
+    - collectibleType: 1
+      pos: {x: -2.2745695, y: 0.49999875, z: 58.96901}
+    - collectibleType: 1
+      pos: {x: -1.6256821, y: 0.5, z: 58.97458}
+    - collectibleType: 1
+      pos: {x: 1.7604263, y: 0.5005257, z: 60.07579}
+    - collectibleType: 1
+      pos: {x: 1.5538937, y: 0.49999854, z: 59.17379}
+    - collectibleType: 1
+      pos: {x: 2.1662006, y: 0.49999118, z: 59.09349}
+    - collectibleType: 1
+      pos: {x: -1.6453298, y: 0.50036466, z: 56.40271}
+    - collectibleType: 1
+      pos: {x: -1.1665951, y: 0.49999365, z: 55.134533}
+    - collectibleType: 1
+      pos: {x: -0.4143507, y: 0.49999017, z: 54.343475}
+    - collectibleType: 1
+      pos: {x: 0.5077979, y: 0.49999914, z: 54.034904}
+    - collectibleType: 1
+      pos: {x: 1.3949697, y: 0.4999986, z: 54.597794}
+    - collectibleType: 1
+      pos: {x: 1.8520083, y: 0.5000025, z: 55.74525}
+    - collectibleType: 1
+      pos: {x: 2.0870345, y: 0.65810376, z: 56.719364}
+    - collectibleType: 2
+      pos: {x: -2.0690763, y: 0.67499995, z: 79.53951}
+    - collectibleType: 2
+      pos: {x: -1.6327417, y: 0.67499995, z: 78.42418}
+    - collectibleType: 2
+      pos: {x: -1.0925316, y: 0.6749999, z: 77.55887}
+    - collectibleType: 2
+      pos: {x: -0.5181945, y: 0.67499995, z: 76.98493}
+    - collectibleType: 2
+      pos: {x: 0.06618349, y: 0.67499995, z: 76.435326}
+    - collectibleType: 2
+      pos: {x: 0.63890964, y: 0.67499995, z: 77.23051}
+    - collectibleType: 2
+      pos: {x: 1.2529298, y: 0.67499995, z: 78.163765}
+    - collectibleType: 2
+      pos: {x: 1.8954855, y: 0.67499995, z: 79.45018}
+    - collectibleType: 2
+      pos: {x: 1.5915713, y: 0.67499995, z: 78.884384}
+    - collectibleType: 2
+      pos: {x: -1.4940085, y: 0.67499995, z: 79.522156}
+    - collectibleType: 2
+      pos: {x: -0.7402357, y: 0.6749999, z: 79.58417}
+    - collectibleType: 2
+      pos: {x: 0.8614826, y: 0.6749999, z: 79.52632}
+    - collectibleType: 2
+      pos: {x: 1.3792771, y: 0.67499995, z: 79.58801}
+    - collectibleType: 2
+      pos: {x: -0.87349254, y: 0.67499995, z: 80.94706}
+    - collectibleType: 2
+      pos: {x: -0.79063463, y: 0.6749999, z: 82.12274}
+    - collectibleType: 2
+      pos: {x: -0.85608834, y: 0.6749999, z: 83.60152}
+    - collectibleType: 2
+      pos: {x: -0.35891932, y: 0.6749999, z: 83.9974}
+    - collectibleType: 2
+      pos: {x: 0.21854547, y: 0.67499995, z: 83.70132}
+    - collectibleType: 2
+      pos: {x: 0.6766781, y: 0.67499995, z: 83.60416}
+    - collectibleType: 2
+      pos: {x: 0.7561695, y: 0.67499995, z: 80.790375}
+    - collectibleType: 2
+      pos: {x: 0.769631, y: 0.67499995, z: 82.038284}
+    - collectibleType: 2
+      pos: {x: -0.8979977, y: 0.67499995, z: 97.94119}
+    - collectibleType: 2
+      pos: {x: -0.3628699, y: 0.67499995, z: 97.881485}
+    - collectibleType: 2
+      pos: {x: 0.2613231, y: 0.67499995, z: 97.93862}
+    - collectibleType: 2
+      pos: {x: 0.796394, y: 0.67499995, z: 97.93725}
+    - collectibleType: 2
+      pos: {x: 0.8212238, y: 0.6749999, z: 99.04431}
+    - collectibleType: 2
+      pos: {x: 0.81249666, y: 0.67499995, z: 100.194626}
+    - collectibleType: 2
+      pos: {x: -0.9516018, y: 0.67499995, z: 98.856415}
+    - collectibleType: 2
+      pos: {x: -0.9847899, y: 0.67499995, z: 100.12821}
+    - collectibleType: 2
+      pos: {x: -0.98148876, y: 0.67499995, z: 101.3114}
+    - collectibleType: 2
+      pos: {x: -1.4738269, y: 0.675, z: 101.43974}
+    - collectibleType: 2
+      pos: {x: -2.10952, y: 0.67499995, z: 101.31417}
+    - collectibleType: 2
+      pos: {x: -1.6729898, y: 0.6750001, z: 102.24794}
+    - collectibleType: 2
+      pos: {x: -1.1579107, y: 0.67499995, z: 103.047646}
+    - collectibleType: 2
+      pos: {x: -0.6950026, y: 0.6749999, z: 103.79932}
+    - collectibleType: 2
+      pos: {x: -0.16790365, y: 0.67499995, z: 104.60617}
+    - collectibleType: 2
+      pos: {x: 0.7986741, y: 0.67499995, z: 101.226845}
+    - collectibleType: 2
+      pos: {x: 1.4991543, y: 0.675, z: 101.35719}
+    - collectibleType: 2
+      pos: {x: 2.135482, y: 0.675, z: 101.2471}
+    - collectibleType: 2
+      pos: {x: 1.7124809, y: 0.67499995, z: 102.48993}
+    - collectibleType: 2
+      pos: {x: 1.2305495, y: 0.67499995, z: 103.23975}
+    - collectibleType: 2
+      pos: {x: 0.5234862, y: 0.67499995, z: 104.1912}
+    - collectibleType: 0
+      pos: {x: -2.395687, y: 0.675, z: 150.46149}
+    - collectibleType: 0
+      pos: {x: -1.755691, y: 0.675, z: 150.69635}
+    - collectibleType: 0
+      pos: {x: -0.67320776, y: 0.675, z: 150.76665}
+    - collectibleType: 0
+      pos: {x: 0.10281664, y: 0.675, z: 150.43465}
+    - collectibleType: 0
+      pos: {x: -0.29366946, y: 0.675, z: 149.66357}
+    - collectibleType: 0
+      pos: {x: -0.9889066, y: 0.675, z: 149.44751}
+    - collectibleType: 0
+      pos: {x: -1.2754511, y: 0.675, z: 150.85498}
+    - collectibleType: 0
+      pos: {x: -1.4601836, y: 0.675, z: 149.98077}
+    - collectibleType: 0
+      pos: {x: -2.0930076, y: 0.675, z: 149.83409}
+    - collectibleType: 0
+      pos: {x: -1.6058568, y: 0.675, z: 149.23401}
+    - collectibleType: 0
+      pos: {x: -1.1010197, y: 0.675, z: 149.08409}
+    - collectibleType: 0
+      pos: {x: -0.5113596, y: 0.675, z: 149.15002}
+    - collectibleType: 0
+      pos: {x: 1.4830855, y: 0.675, z: 158.72975}
+    - collectibleType: 0
+      pos: {x: -5.389898, y: 0.675, z: 157.9978}
+    - collectibleType: 0
+      pos: {x: 3.879302, y: 0.675, z: 157.07823}
+    - collectibleType: 0
+      pos: {x: 2.7105038, y: 0.675, z: 158.18095}
+    - collectibleType: 0
+      pos: {x: 2.4764786, y: 0.675, z: 159.28198}
+    - collectibleType: 0
+      pos: {x: 2.0180783, y: 0.675, z: 158.44948}
+    - collectibleType: 0
+      pos: {x: 1.8568654, y: 0.675, z: 160.01855}
+    - collectibleType: 0
+      pos: {x: 3.0530396, y: 0.675, z: 160.15564}
+    - collectibleType: 0
+      pos: {x: 2.3410938, y: 0.675, z: 161.08832}
+    - collectibleType: 0
+      pos: {x: 3.1265507, y: 0.675, z: 159.27502}
+    - collectibleType: 0
+      pos: {x: -2.9803421, y: 0.675, z: 173.34688}
+    - collectibleType: 0
+      pos: {x: -2.8002167, y: 0.675, z: 170.69691}
+    - collectibleType: 0
+      pos: {x: -2.416513, y: 0.675, z: 170.44308}
+    - collectibleType: 0
+      pos: {x: -2.5240624, y: 0.675, z: 172.24727}
+    - collectibleType: 0
+      pos: {x: -3.2617471, y: 0.675, z: 172.51877}
+    - collectibleType: 0
+      pos: {x: -3.3937573, y: 0.675, z: 171.20932}
+    - collectibleType: 0
+      pos: {x: -2.1151714, y: 0.675, z: 171.20428}
+    - collectibleType: 0
+      pos: {x: -2.8349235, y: 0.675, z: 172.4082}
+    - collectibleType: 0
+      pos: {x: 1.4175224, y: 0.675, z: 180.53792}
+    - collectibleType: 0
+      pos: {x: -4.548583, y: 0.675, z: 174.26059}
+    - collectibleType: 0
+      pos: {x: 2.1132731, y: 0.675, z: 179.54247}
+    - collectibleType: 0
+      pos: {x: 1.6703551, y: 0.675, z: 178.6534}
+    - collectibleType: 0
+      pos: {x: 1.9594275, y: 0.675, z: 182.31538}
+    - collectibleType: 0
+      pos: {x: 2.339419, y: 0.675, z: 180.7744}
+    - collectibleType: 0
+      pos: {x: 2.3996363, y: 0.675, z: 179.33287}
+    - collectibleType: 0
+      pos: {x: 2.0951257, y: 0.675, z: 179.10501}
+    - collectibleType: 0
+      pos: {x: 1.3059793, y: 0.675, z: 180.04665}
+    - collectibleType: 0
+      pos: {x: -1.9916098, y: 0.675, z: 198.2031}
+    - collectibleType: 0
+      pos: {x: -2.6307976, y: 0.675, z: 193.95145}
+    - collectibleType: 0
+      pos: {x: -2.0564046, y: 0.675, z: 195.38617}
+    - collectibleType: 0
+      pos: {x: -2.838615, y: 0.675, z: 198.21204}
+    - collectibleType: 0
+      pos: {x: -2.9148493, y: 0.675, z: 197.23947}
+    - collectibleType: 0
+      pos: {x: -2.6573389, y: 0.675, z: 197.55682}
+    - collectibleType: 0
+      pos: {x: -2.4259453, y: 0.675, z: 195.98953}
+    - collectibleType: 0
+      pos: {x: -1.7227914, y: 0.675, z: 196.90955}
+    - collectibleType: 0
+      pos: {x: -2.2440393, y: 0.675, z: 197.39883}
+    platforms:
+    - pos: {x: 0, y: 0, z: 0}
+    - pos: {x: 0, y: 0, z: 90.05}
+    - pos: {x: 0, y: 0, z: 180.1}
+    targetValue: 130000001500000015000000
+    levelind: 8
+  - collectibles:
+    - collectibleType: 0
+      pos: {x: -4.0036526, y: 0.675, z: -34.482742}
+    - collectibleType: 0
+      pos: {x: -3.3663268, y: 0.675, z: -34.44448}
+    - collectibleType: 0
+      pos: {x: -4.0798078, y: 0.675, z: -33.408344}
+    - collectibleType: 0
+      pos: {x: -3.4136083, y: 0.675, z: -33.479164}
+    - collectibleType: 0
+      pos: {x: -4.0796404, y: 0.675, z: -32.442207}
+    - collectibleType: 0
+      pos: {x: -3.4516222, y: 0.675, z: -32.452244}
+    - collectibleType: 0
+      pos: {x: -4.0333743, y: 0.675, z: -31.263678}
+    - collectibleType: 0
+      pos: {x: -3.494773, y: 0.675, z: -31.202076}
+    - collectibleType: 0
+      pos: {x: -4.1117363, y: 0.675, z: -29.896225}
+    - collectibleType: 0
+      pos: {x: -3.531256, y: 0.675, z: -29.896225}
+    - collectibleType: 0
+      pos: {x: -4.09714, y: 0.675, z: -28.35604}
+    - collectibleType: 0
+      pos: {x: -3.5412817, y: 0.675, z: -28.35604}
+    - collectibleType: 0
+      pos: {x: -4.093897, y: 0.675, z: -26.872171}
+    - collectibleType: 0
+      pos: {x: -3.5070825, y: 0.675, z: -26.959137}
+    - collectibleType: 0
+      pos: {x: -3.3078434, y: 0.675, z: -25.731243}
+    - collectibleType: 0
+      pos: {x: -3.0311224, y: 0.675, z: -24.840143}
+    - collectibleType: 0
+      pos: {x: -2.677843, y: 0.675, z: -24.059765}
+    - collectibleType: 0
+      pos: {x: -2.4755135, y: 0.675, z: -23.355545}
+    - collectibleType: 0
+      pos: {x: -1.9191351, y: 0.675, z: -22.394796}
+    - collectibleType: 0
+      pos: {x: -1.3461856, y: 0.675, z: -21.43073}
+    - collectibleType: 0
+      pos: {x: -0.80031145, y: 0.675, z: -20.304962}
+    - collectibleType: 0
+      pos: {x: -0.32652545, y: 0.675, z: -19.511776}
+    - collectibleType: 0
+      pos: {x: 0.19172026, y: 0.675, z: -18.678509}
+    - collectibleType: 0
+      pos: {x: 0.6904435, y: 0.675, z: -17.777948}
+    - collectibleType: 0
+      pos: {x: 1.3060802, y: 0.675, z: -16.5964}
+    - collectibleType: 0
+      pos: {x: 1.9001158, y: 0.675, z: -15.80423}
+    - collectibleType: 0
+      pos: {x: 2.558737, y: 0.675, z: -14.869123}
+    - collectibleType: 0
+      pos: {x: 3.0440764, y: 0.675, z: -14.2554455}
+    - collectibleType: 0
+      pos: {x: 3.8936176, y: 0.675, z: -13.043381}
+    - collectibleType: 0
+      pos: {x: 4.7348986, y: 0.675, z: -11.904568}
+    - collectibleType: 0
+      pos: {x: -3.8424916, y: 0.675, z: -25.36379}
+    - collectibleType: 0
+      pos: {x: -3.5573025, y: 0.675, z: -24.267714}
+    - collectibleType: 0
+      pos: {x: -3.2649934, y: 0.675, z: -23.13102}
+    - collectibleType: 0
+      pos: {x: -2.9423304, y: 0.675, z: -22.39802}
+    - collectibleType: 0
+      pos: {x: -2.3962474, y: 0.675, z: -21.29193}
+    - collectibleType: 0
+      pos: {x: -1.9518337, y: 0.675, z: -20.440868}
+    - collectibleType: 0
+      pos: {x: -1.3072517, y: 0.675, z: -19.340496}
+    - collectibleType: 0
+      pos: {x: -0.7522396, y: 0.675, z: -18.45405}
+    - collectibleType: 0
+      pos: {x: -0.17558092, y: 0.675, z: -17.706816}
+    - collectibleType: 0
+      pos: {x: 0.3678815, y: 0.675, z: -16.750725}
+    - collectibleType: 0
+      pos: {x: 1.0449729, y: 0.675, z: -15.274527}
+    - collectibleType: 0
+      pos: {x: 1.8656869, y: 0.675, z: -14.210987}
+    - collectibleType: 0
+      pos: {x: 2.6053958, y: 0.675, z: -13.273491}
+    - collectibleType: 0
+      pos: {x: 3.2004988, y: 0.675, z: -12.502953}
+    - collectibleType: 0
+      pos: {x: 4.0605745, y: 0.675, z: -11.344206}
+    - collectibleType: 0
+      pos: {x: 4.7544284, y: 0.675, z: -9.993971}
+    - collectibleType: 2
+      pos: {x: -2.7199564, y: 0.6749999, z: -26.679272}
+    - collectibleType: 2
+      pos: {x: -1.9746696, y: 0.67499995, z: -26.656727}
+    - collectibleType: 2
+      pos: {x: -1.2448792, y: 0.67499995, z: -26.65925}
+    - collectibleType: 2
+      pos: {x: -0.5571738, y: 0.675, z: -26.608006}
+    - collectibleType: 2
+      pos: {x: 0.22829863, y: 0.67499995, z: -26.74254}
+    - collectibleType: 2
+      pos: {x: 0.98392546, y: 0.67500013, z: -26.755192}
+    - collectibleType: 2
+      pos: {x: 1.8480228, y: 0.675, z: -26.831667}
+    - collectibleType: 2
+      pos: {x: 2.5874913, y: 0.6750001, z: -26.812805}
+    - collectibleType: 2
+      pos: {x: 3.2660615, y: 0.675, z: -26.87119}
+    - collectibleType: 2
+      pos: {x: 4.0983143, y: 0.675, z: -26.881481}
+    - collectibleType: 2
+      pos: {x: 4.8756714, y: 0.6750001, z: -26.857199}
+    - collectibleType: 1
+      pos: {x: -2.8985937, y: 0.5002285, z: 8.851013}
+    - collectibleType: 1
+      pos: {x: -3.197366, y: 0.4999842, z: 7.8789015}
+    - collectibleType: 1
+      pos: {x: -2.3712113, y: 0.5003087, z: 7.9908504}
+    - collectibleType: 1
+      pos: {x: -2.6377106, y: 0.49999398, z: 7.0710855}
+    - collectibleType: 1
+      pos: {x: 2.3089855, y: 0.49999064, z: 8.4550085}
+    - collectibleType: 1
+      pos: {x: 3.2002456, y: 0.50017166, z: 8.036026}
+    - collectibleType: 1
+      pos: {x: 2.8153574, y: 0.50023794, z: 7.7221184}
+    - collectibleType: 1
+      pos: {x: 2.8108172, y: 0.49999082, z: 8.676786}
+    - collectibleType: 1
+      pos: {x: 2.5549176, y: 0.499991, z: 20.77885}
+    - collectibleType: 1
+      pos: {x: 2.2730327, y: 0.50000226, z: 19.620905}
+    - collectibleType: 1
+      pos: {x: 2.8561974, y: 0.49999046, z: 19.443926}
+    - collectibleType: 1
+      pos: {x: 2.597424, y: 0.50000155, z: 18.642433}
+    - collectibleType: 1
+      pos: {x: -3.8468564, y: 0.49999976, z: 19.569944}
+    - collectibleType: 1
+      pos: {x: -3.011826, y: 0.499999, z: 19.422646}
+    - collectibleType: 1
+      pos: {x: -3.416791, y: 0.49999055, z: 18.853317}
+    - collectibleType: 1
+      pos: {x: -3.6071796, y: 0.5000012, z: 20.111212}
+    - collectibleType: 1
+      pos: {x: -0.5908184, y: 0.4999956, z: 32.88039}
+    - collectibleType: 1
+      pos: {x: -0.89317566, y: 0.5004704, z: 32.09047}
+    - collectibleType: 1
+      pos: {x: -0.14164418, y: 0.49999797, z: 31.92853}
+    - collectibleType: 1
+      pos: {x: -0.48049304, y: 0.50048363, z: 31.271029}
+    - collectibleType: 1
+      pos: {x: -2.0823781, y: 0.5003631, z: 59.859497}
+    - collectibleType: 1
+      pos: {x: -2.2745695, y: 0.49999875, z: 58.96901}
+    - collectibleType: 1
+      pos: {x: -1.6256821, y: 0.5, z: 58.97458}
+    - collectibleType: 1
+      pos: {x: 1.7604263, y: 0.5005257, z: 60.07579}
+    - collectibleType: 1
+      pos: {x: 1.5538937, y: 0.49999854, z: 59.17379}
+    - collectibleType: 1
+      pos: {x: 2.1662006, y: 0.49999118, z: 59.09349}
+    - collectibleType: 1
+      pos: {x: -1.6453298, y: 0.50036466, z: 56.40271}
+    - collectibleType: 1
+      pos: {x: -1.1665951, y: 0.49999365, z: 55.134533}
+    - collectibleType: 1
+      pos: {x: -0.4143507, y: 0.49999017, z: 54.343475}
+    - collectibleType: 1
+      pos: {x: 0.5077979, y: 0.49999914, z: 54.034904}
+    - collectibleType: 1
+      pos: {x: 1.3949697, y: 0.4999986, z: 54.597794}
+    - collectibleType: 1
+      pos: {x: 1.8520083, y: 0.5000025, z: 55.74525}
+    - collectibleType: 1
+      pos: {x: 2.0870345, y: 0.65810376, z: 56.719364}
+    - collectibleType: 2
+      pos: {x: -2.0690763, y: 0.67499995, z: 79.53951}
+    - collectibleType: 2
+      pos: {x: -1.6327417, y: 0.67499995, z: 78.42418}
+    - collectibleType: 2
+      pos: {x: -1.0925316, y: 0.6749999, z: 77.55887}
+    - collectibleType: 2
+      pos: {x: -0.5181945, y: 0.67499995, z: 76.98493}
+    - collectibleType: 2
+      pos: {x: 0.06618349, y: 0.67499995, z: 76.435326}
+    - collectibleType: 2
+      pos: {x: 0.63890964, y: 0.67499995, z: 77.23051}
+    - collectibleType: 2
+      pos: {x: 1.2529298, y: 0.67499995, z: 78.163765}
+    - collectibleType: 2
+      pos: {x: 1.8954855, y: 0.67499995, z: 79.45018}
+    - collectibleType: 2
+      pos: {x: 1.5915713, y: 0.67499995, z: 78.884384}
+    - collectibleType: 2
+      pos: {x: -1.4940085, y: 0.67499995, z: 79.522156}
+    - collectibleType: 2
+      pos: {x: -0.7402357, y: 0.6749999, z: 79.58417}
+    - collectibleType: 2
+      pos: {x: 0.8614826, y: 0.6749999, z: 79.52632}
+    - collectibleType: 2
+      pos: {x: 1.3792771, y: 0.67499995, z: 79.58801}
+    - collectibleType: 2
+      pos: {x: -0.87349254, y: 0.67499995, z: 80.94706}
+    - collectibleType: 2
+      pos: {x: -0.79063463, y: 0.6749999, z: 82.12274}
+    - collectibleType: 2
+      pos: {x: -0.85608834, y: 0.6749999, z: 83.60152}
+    - collectibleType: 2
+      pos: {x: -0.35891932, y: 0.6749999, z: 83.9974}
+    - collectibleType: 2
+      pos: {x: 0.21854547, y: 0.67499995, z: 83.70132}
+    - collectibleType: 2
+      pos: {x: 0.6766781, y: 0.67499995, z: 83.60416}
+    - collectibleType: 2
+      pos: {x: 0.7561695, y: 0.67499995, z: 80.790375}
+    - collectibleType: 2
+      pos: {x: 0.769631, y: 0.67499995, z: 82.038284}
+    - collectibleType: 2
+      pos: {x: -0.8979977, y: 0.67499995, z: 97.94119}
+    - collectibleType: 2
+      pos: {x: -0.3628699, y: 0.67499995, z: 97.881485}
+    - collectibleType: 2
+      pos: {x: 0.2613231, y: 0.67499995, z: 97.93862}
+    - collectibleType: 2
+      pos: {x: 0.796394, y: 0.67499995, z: 97.93725}
+    - collectibleType: 2
+      pos: {x: 0.8212238, y: 0.6749999, z: 99.04431}
+    - collectibleType: 2
+      pos: {x: 0.81249666, y: 0.67499995, z: 100.194626}
+    - collectibleType: 2
+      pos: {x: -0.9516018, y: 0.67499995, z: 98.856415}
+    - collectibleType: 2
+      pos: {x: -0.9847899, y: 0.67499995, z: 100.12821}
+    - collectibleType: 2
+      pos: {x: -0.98148876, y: 0.67499995, z: 101.3114}
+    - collectibleType: 2
+      pos: {x: -1.4738269, y: 0.675, z: 101.43974}
+    - collectibleType: 2
+      pos: {x: -2.10952, y: 0.67499995, z: 101.31417}
+    - collectibleType: 2
+      pos: {x: -1.6729898, y: 0.6750001, z: 102.24794}
+    - collectibleType: 2
+      pos: {x: -1.1579107, y: 0.67499995, z: 103.047646}
+    - collectibleType: 2
+      pos: {x: -0.6950026, y: 0.6749999, z: 103.79932}
+    - collectibleType: 2
+      pos: {x: -0.16790365, y: 0.67499995, z: 104.60617}
+    - collectibleType: 2
+      pos: {x: 0.7986741, y: 0.67499995, z: 101.226845}
+    - collectibleType: 2
+      pos: {x: 1.4991543, y: 0.675, z: 101.35719}
+    - collectibleType: 2
+      pos: {x: 2.135482, y: 0.675, z: 101.2471}
+    - collectibleType: 2
+      pos: {x: 1.7124809, y: 0.67499995, z: 102.48993}
+    - collectibleType: 2
+      pos: {x: 1.2305495, y: 0.67499995, z: 103.23975}
+    - collectibleType: 2
+      pos: {x: 0.5234862, y: 0.67499995, z: 104.1912}
+    - collectibleType: 0
+      pos: {x: -2.395687, y: 0.675, z: 150.46149}
+    - collectibleType: 0
+      pos: {x: -1.755691, y: 0.675, z: 150.69635}
+    - collectibleType: 0
+      pos: {x: -0.67320776, y: 0.675, z: 150.76665}
+    - collectibleType: 0
+      pos: {x: 0.10281664, y: 0.675, z: 150.43465}
+    - collectibleType: 0
+      pos: {x: -0.29366946, y: 0.675, z: 149.66357}
+    - collectibleType: 0
+      pos: {x: -0.9889066, y: 0.675, z: 149.44751}
+    - collectibleType: 0
+      pos: {x: -1.2754511, y: 0.675, z: 150.85498}
+    - collectibleType: 0
+      pos: {x: -1.4601836, y: 0.675, z: 149.98077}
+    - collectibleType: 0
+      pos: {x: -2.0930076, y: 0.675, z: 149.83409}
+    - collectibleType: 0
+      pos: {x: -1.6058568, y: 0.675, z: 149.23401}
+    - collectibleType: 0
+      pos: {x: -1.1010197, y: 0.675, z: 149.08409}
+    - collectibleType: 0
+      pos: {x: -0.5113596, y: 0.675, z: 149.15002}
+    - collectibleType: 0
+      pos: {x: 1.4830855, y: 0.675, z: 158.72975}
+    - collectibleType: 0
+      pos: {x: -5.389898, y: 0.675, z: 157.9978}
+    - collectibleType: 0
+      pos: {x: 3.879302, y: 0.675, z: 157.07823}
+    - collectibleType: 0
+      pos: {x: 2.7105038, y: 0.675, z: 158.18095}
+    - collectibleType: 0
+      pos: {x: 2.4764786, y: 0.675, z: 159.28198}
+    - collectibleType: 0
+      pos: {x: 2.0180783, y: 0.675, z: 158.44948}
+    - collectibleType: 0
+      pos: {x: 1.8568654, y: 0.675, z: 160.01855}
+    - collectibleType: 0
+      pos: {x: 3.0530396, y: 0.675, z: 160.15564}
+    - collectibleType: 0
+      pos: {x: 2.3410938, y: 0.675, z: 161.08832}
+    - collectibleType: 0
+      pos: {x: 3.1265507, y: 0.675, z: 159.27502}
+    - collectibleType: 0
+      pos: {x: -2.9803421, y: 0.675, z: 173.34688}
+    - collectibleType: 0
+      pos: {x: -2.8002167, y: 0.675, z: 170.69691}
+    - collectibleType: 0
+      pos: {x: -2.416513, y: 0.675, z: 170.44308}
+    - collectibleType: 0
+      pos: {x: -2.5240624, y: 0.675, z: 172.24727}
+    - collectibleType: 0
+      pos: {x: -3.2617471, y: 0.675, z: 172.51877}
+    - collectibleType: 0
+      pos: {x: -3.3937573, y: 0.675, z: 171.20932}
+    - collectibleType: 0
+      pos: {x: -2.1151714, y: 0.675, z: 171.20428}
+    - collectibleType: 0
+      pos: {x: -2.8349235, y: 0.675, z: 172.4082}
+    - collectibleType: 0
+      pos: {x: 1.4175224, y: 0.675, z: 180.53792}
+    - collectibleType: 0
+      pos: {x: -4.548583, y: 0.675, z: 174.26059}
+    - collectibleType: 0
+      pos: {x: 2.1132731, y: 0.675, z: 179.54247}
+    - collectibleType: 0
+      pos: {x: 1.6703551, y: 0.675, z: 178.6534}
+    - collectibleType: 0
+      pos: {x: 1.9594275, y: 0.675, z: 182.31538}
+    - collectibleType: 0
+      pos: {x: 2.339419, y: 0.675, z: 180.7744}
+    - collectibleType: 0
+      pos: {x: 2.3996363, y: 0.675, z: 179.33287}
+    - collectibleType: 0
+      pos: {x: 2.0951257, y: 0.675, z: 179.10501}
+    - collectibleType: 0
+      pos: {x: 1.3059793, y: 0.675, z: 180.04665}
+    - collectibleType: 0
+      pos: {x: -1.9916098, y: 0.675, z: 198.2031}
+    - collectibleType: 0
+      pos: {x: -2.6307976, y: 0.675, z: 193.95145}
+    - collectibleType: 0
+      pos: {x: -2.0564046, y: 0.675, z: 195.38617}
+    - collectibleType: 0
+      pos: {x: -2.838615, y: 0.675, z: 198.21204}
+    - collectibleType: 0
+      pos: {x: -2.9148493, y: 0.675, z: 197.23947}
+    - collectibleType: 0
+      pos: {x: -2.6573389, y: 0.675, z: 197.55682}
+    - collectibleType: 0
+      pos: {x: -2.4259453, y: 0.675, z: 195.98953}
+    - collectibleType: 0
+      pos: {x: -1.7227914, y: 0.675, z: 196.90955}
+    - collectibleType: 0
+      pos: {x: -2.2440393, y: 0.675, z: 197.39883}
+    platforms:
+    - pos: {x: 0, y: 0, z: 0}
+    - pos: {x: 0, y: 0, z: 90.05}
+    - pos: {x: 0, y: 0, z: 180.1}
+    targetValue: 150000001700000017000000
+    levelind: 9
+  - collectibles:
+    - collectibleType: 0
+      pos: {x: -3.4251862, y: 0.675, z: -31.923555}
+    - collectibleType: 0
+      pos: {x: -2.8370228, y: 0.675, z: -31.923553}
+    - collectibleType: 0
+      pos: {x: -2.2420542, y: 0.675, z: -32.004883}
+    - collectibleType: 0
+      pos: {x: -1.5963459, y: 0.675, z: -31.841728}
+    - collectibleType: 0
+      pos: {x: -2.3788052, y: 0.675, z: -30.370558}
+    - collectibleType: 0
+      pos: {x: -3.0278304, y: 0.675, z: -30.461542}
+    - collectibleType: 0
+      pos: {x: -3.5636227, y: 0.675, z: -30.55195}
+    - collectibleType: 1
+      pos: {x: 1.5345306, y: 0.49998945, z: -23.14767}
+    - collectibleType: 1
+      pos: {x: 1.2172505, y: 0.49984133, z: -24.392267}
+    - collectibleType: 1
+      pos: {x: 1.7918634, y: 0.49999017, z: -24.392788}
+    - collectibleType: 1
+      pos: {x: 2.6879232, y: 0.49999923, z: -24.258127}
+    - collectibleType: 1
+      pos: {x: 3.3569245, y: 0.5003247, z: -24.258188}
+    - collectibleType: 1
+      pos: {x: 3.174105, y: 0.49999803, z: -23.28957}
+    platforms:
+    - pos: {x: 0, y: 0, z: 0}
+    - pos: {x: 0, y: 0, z: 90.05}
+    - pos: {x: 0, y: 0, z: 180.1}
+    - pos: {x: 0, y: 0, z: 270.15002}
+    targetValue: 1700000019000000190000001b000000
+    levelind: 10
+  - collectibles:
+    - collectibleType: 2
+      pos: {x: -4.8222795, y: 0.675, z: -28.285097}
+    - collectibleType: 2
+      pos: {x: -4.242316, y: 0.675, z: -28.392685}
+    - collectibleType: 2
+      pos: {x: -3.5435112, y: 0.675, z: -28.419394}
+    - collectibleType: 2
+      pos: {x: -2.885297, y: 0.675, z: -28.285097}
+    - collectibleType: 2
+      pos: {x: -2.1992822, y: 0.675, z: -28.285097}
+    - collectibleType: 2
+      pos: {x: -1.5536216, y: 0.675, z: -28.285099}
+    - collectibleType: 2
+      pos: {x: -1.0290223, y: 0.675, z: -28.285097}
+    - collectibleType: 2
+      pos: {x: -0.4237154, y: 0.675, z: -28.285097}
+    - collectibleType: 2
+      pos: {x: 0.22194542, y: 0.675, z: -28.285097}
+    - collectibleType: 2
+      pos: {x: 0.7868993, y: 0.675, z: -28.285099}
+    - collectibleType: 2
+      pos: {x: 1.3922052, y: 0.675, z: -28.285097}
+    - collectibleType: 2
+      pos: {x: 1.916805, y: 0.675, z: -28.285099}
+    - collectibleType: 2
+      pos: {x: 19.033197, y: -1354174.8, z: -62.5255}
+    - collectibleType: 2
+      pos: {x: 3.2484808, y: 0.675, z: -28.285099}
+    - collectibleType: 2
+      pos: {x: 4.0366745, y: 0.675, z: -28.376028}
+    - collectibleType: 2
+      pos: {x: 4.8176174, y: 0.675, z: -28.429138}
+    - collectibleType: 1
+      pos: {x: -2.1546435, y: 0.49999014, z: -27.184498}
+    - collectibleType: 1
+      pos: {x: -1.6843385, y: 0.49998996, z: -26.025354}
+    - collectibleType: 1
+      pos: {x: -1.0742004, y: 0.4999888, z: -24.398987}
+    - collectibleType: 1
+      pos: {x: -0.23567882, y: 0.49999145, z: -22.361269}
+    - collectibleType: 1
+      pos: {x: 0.74208146, y: 0.49999145, z: -24.196293}
+    - collectibleType: 1
+      pos: {x: 1.4768945, y: 0.4999966, z: -25.73003}
+    - collectibleType: 1
+      pos: {x: 2.5056772, y: 0.49999127, z: -27.313684}
+    - collectibleType: 2
+      pos: {x: 2.6193419, y: 0.675, z: -28.2675}
+    - collectibleType: 1
+      pos: {x: -0.24406861, y: 0.49999344, z: -5.912724}
+    - collectibleType: 1
+      pos: {x: -1.2425305, y: 0.49998987, z: -3.6570723}
+    - collectibleType: 1
+      pos: {x: 0.90510535, y: 0.49998808, z: -3.6429744}
+    - collectibleType: 1
+      pos: {x: -0.33942956, y: 0.49999136, z: -1.1468925}
+    - collectibleType: 1
+      pos: {x: 2.930252, y: 0.49999392, z: 6.1900225}
+    - collectibleType: 1
+      pos: {x: 2.0396142, y: 0.49999171, z: 8.29639}
+    - collectibleType: 1
+      pos: {x: 3.8141212, y: 0.49999726, z: 8.3079605}
+    - collectibleType: 1
+      pos: {x: 3.1074433, y: 0.49998748, z: 10.484163}
+    - collectibleType: 1
+      pos: {x: -3.319163, y: 0.49998984, z: 6.2734737}
+    - collectibleType: 1
+      pos: {x: -4.3873954, y: 0.49998838, z: 8.254268}
+    - collectibleType: 1
+      pos: {x: -2.5454066, y: 0.49999022, z: 7.8998613}
+    - collectibleType: 1
+      pos: {x: -3.5472395, y: 0.49998945, z: 9.839638}
+    - collectibleType: 1
+      pos: {x: -0.21106465, y: 0.49999356, z: 18.238514}
+    - collectibleType: 1
+      pos: {x: -1.1570626, y: 0.49999428, z: 20.562449}
+    - collectibleType: 1
+      pos: {x: 0.9424412, y: 0.49999198, z: 20.250967}
+    - collectibleType: 1
+      pos: {x: -0.0910641, y: 0.49999377, z: 22.139933}
+    - collectibleType: 2
+      pos: {x: 0.25028875, y: 0.675, z: 54.020256}
+    - collectibleType: 2
+      pos: {x: -0.959684, y: 0.675, z: 54.209915}
+    - collectibleType: 2
+      pos: {x: -2.0301065, y: 0.675, z: 55.144863}
+    - collectibleType: 2
+      pos: {x: -2.8396292, y: 0.675, z: 56.6181}
+    - collectibleType: 2
+      pos: {x: -3.054872, y: 0.675, z: 57.999916}
+    - collectibleType: 2
+      pos: {x: -2.4934123, y: 0.675, z: 59.323143}
+    - collectibleType: 2
+      pos: {x: -1.3567933, y: 0.675, z: 60.539303}
+    - collectibleType: 2
+      pos: {x: 0.542511, y: 0.675, z: 60.657635}
+    - collectibleType: 2
+      pos: {x: 1.4612976, y: 0.675, z: 59.874508}
+    - collectibleType: 2
+      pos: {x: 2.0206556, y: 0.675, z: 58.678658}
+    - collectibleType: 2
+      pos: {x: 2.222668, y: 0.675, z: 57.357014}
+    - collectibleType: 2
+      pos: {x: 1.8334306, y: 0.675, z: 55.77621}
+    - collectibleType: 2
+      pos: {x: 1.1626557, y: 0.675, z: 54.721504}
+    - collectibleType: 2
+      pos: {x: -0.3721189, y: 0.675, z: 60.84064}
+    - collectibleType: 1
+      pos: {x: -4.944901, y: 0.49998963, z: 73.584305}
+    - collectibleType: 1
+      pos: {x: -4.495237, y: 0.49998826, z: 74.229195}
+    - collectibleType: 1
+      pos: {x: -3.7930546, y: 0.49998957, z: 75.19595}
+    - collectibleType: 1
+      pos: {x: -3.020648, y: 0.49999675, z: 76.55653}
+    - collectibleType: 1
+      pos: {x: -2.1262403, y: 0.49998742, z: 78.074326}
+    - collectibleType: 1
+      pos: {x: -1.1547432, y: 0.49999005, z: 79.28899}
+    - collectibleType: 1
+      pos: {x: -0.2506368, y: 0.49999326, z: 80.82129}
+    - collectibleType: 1
+      pos: {x: 0.7368488, y: 0.49998927, z: 82.173035}
+    - collectibleType: 1
+      pos: {x: 1.5538725, y: 0.4999963, z: 83.64432}
+    - collectibleType: 1
+      pos: {x: 2.4375062, y: 0.49998876, z: 85.11889}
+    - collectibleType: 1
+      pos: {x: 3.2756732, y: 0.49998894, z: 86.87843}
+    - collectibleType: 1
+      pos: {x: 4.5593176, y: 0.49998245, z: 88.49541}
+    - collectibleType: 1
+      pos: {x: -5.055029, y: 0.49998772, z: 89.18464}
+    - collectibleType: 1
+      pos: {x: -4.230437, y: 0.49998882, z: 88.01711}
+    - collectibleType: 1
+      pos: {x: -3.3386173, y: 0.49998963, z: 86.61438}
+    - collectibleType: 1
+      pos: {x: -2.5955493, y: 0.49999112, z: 85.17259}
+    - collectibleType: 1
+      pos: {x: -1.8128723, y: 0.49999082, z: 83.587296}
+    - collectibleType: 1
+      pos: {x: -1.2273972, y: 0.49998993, z: 82.14054}
+    - collectibleType: 1
+      pos: {x: 0.68898547, y: 0.4999898, z: 79.61089}
+    - collectibleType: 1
+      pos: {x: 1.5160487, y: 0.49999112, z: 78.95434}
+    - collectibleType: 1
+      pos: {x: 2.0866709, y: 0.4999975, z: 77.625854}
+    - collectibleType: 1
+      pos: {x: 2.7483232, y: 0.49999124, z: 76.73319}
+    - collectibleType: 1
+      pos: {x: 3.54669, y: 0.49999148, z: 75.754616}
+    - collectibleType: 1
+      pos: {x: 4.2840514, y: 0.49998778, z: 74.84596}
+    - collectibleType: 1
+      pos: {x: 4.8309746, y: 0.4999873, z: 74.19339}
+    - collectibleType: 2
+      pos: {x: -3.9660618, y: 0.675, z: 111.926895}
+    - collectibleType: 2
+      pos: {x: -3.3952389, y: 0.675, z: 110.983696}
+    - collectibleType: 2
+      pos: {x: -2.7702343, y: 0.675, z: 109.88627}
+    - collectibleType: 2
+      pos: {x: -4.1753983, y: 0.675, z: 108.63252}
+    - collectibleType: 2
+      pos: {x: -3.4488957, y: 0.675, z: 109.35919}
+    - collectibleType: 2
+      pos: {x: 3.791016, y: 0.675, z: 112.56013}
+    - collectibleType: 2
+      pos: {x: 3.1587753, y: 0.675, z: 111.677956}
+    - collectibleType: 2
+      pos: {x: 2.6614165, y: 0.675, z: 110.60839}
+    - collectibleType: 2
+      pos: {x: 3.176729, y: 0.675, z: 110.03944}
+    - collectibleType: 2
+      pos: {x: 3.8098693, y: 0.675, z: 109.5972}
+    - collectibleType: 2
+      pos: {x: -0.07602774, y: 0.675, z: 123.42767}
+    - collectibleType: 2
+      pos: {x: -0.5173353, y: 0.675, z: 122.08891}
+    - collectibleType: 2
+      pos: {x: 0.37126958, y: 0.675, z: 122.13464}
+    - collectibleType: 2
+      pos: {x: -0.049973976, y: 0.675, z: 120.83871}
+    - collectibleType: 2
+      pos: {x: -5.0221257, y: 0.675, z: 146.0665}
+    - collectibleType: 2
+      pos: {x: -4.6149535, y: 0.675, z: 147.31052}
+    - collectibleType: 2
+      pos: {x: -4.0464177, y: 0.675, z: 148.50197}
+    - collectibleType: 2
+      pos: {x: -3.308723, y: 0.675, z: 149.7487}
+    - collectibleType: 2
+      pos: {x: -2.4833887, y: 0.675, z: 151.20036}
+    - collectibleType: 2
+      pos: {x: -1.8997583, y: 0.675, z: 152.03725}
+    - collectibleType: 2
+      pos: {x: -0.8214463, y: 0.675, z: 152.69249}
+    - collectibleType: 2
+      pos: {x: 0.08974066, y: 0.675, z: 153.02924}
+    - collectibleType: 2
+      pos: {x: 1.04987, y: 0.675, z: 152.29156}
+    - collectibleType: 2
+      pos: {x: 1.6571608, y: 0.675, z: 151.48454}
+    - collectibleType: 2
+      pos: {x: 2.5496676, y: 0.675, z: 150.08664}
+    - collectibleType: 2
+      pos: {x: 3.0805526, y: 0.675, z: 149.16556}
+    - collectibleType: 2
+      pos: {x: 3.7432785, y: 0.675, z: 147.97098}
+    - collectibleType: 2
+      pos: {x: 4.239296, y: 0.675, z: 147.02621}
+    - collectibleType: 2
+      pos: {x: 4.619358, y: 0.675, z: 145.9356}
+    - collectibleType: 2
+      pos: {x: -5.083381, y: 0.675, z: 160.99521}
+    - collectibleType: 2
+      pos: {x: -4.4563913, y: 0.675, z: 159.10043}
+    - collectibleType: 2
+      pos: {x: -4.092171, y: 0.675, z: 157.52939}
+    - collectibleType: 2
+      pos: {x: -3.5029535, y: 0.675, z: 155.8088}
+    - collectibleType: 2
+      pos: {x: -2.9544425, y: 0.675, z: 154.62088}
+    - collectibleType: 2
+      pos: {x: -2.4002666, y: 0.675, z: 153.51228}
+    - collectibleType: 2
+      pos: {x: -1.291759, y: 0.675, z: 151.23149}
+    - collectibleType: 2
+      pos: {x: -0.5282367, y: 0.675, z: 150.4681}
+    - collectibleType: 2
+      pos: {x: 0.49633172, y: 0.675, z: 151.14243}
+    - collectibleType: 2
+      pos: {x: 1.6182168, y: 0.675, z: 153.4874}
+    - collectibleType: 2
+      pos: {x: 2.3372908, y: 0.675, z: 155.10431}
+    - collectibleType: 2
+      pos: {x: 3.1052427, y: 0.675, z: 156.60522}
+    - collectibleType: 2
+      pos: {x: 3.9816868, y: 0.675, z: 158.56339}
+    - collectibleType: 2
+      pos: {x: 4.6796193, y: 0.675, z: 160.57675}
+    - collectibleType: 1
+      pos: {x: -3.9910004, y: 0.4999894, z: 176.28404}
+    - collectibleType: 1
+      pos: {x: -3.9687726, y: 0.49998945, z: 174.65791}
+    - collectibleType: 1
+      pos: {x: -3.9486012, y: 0.49999005, z: 173.48994}
+    - collectibleType: 1
+      pos: {x: -3.9260168, y: 0.49998903, z: 172.6945}
+    - collectibleType: 1
+      pos: {x: -3.0962286, y: 0.49998784, z: 172.40723}
+    - collectibleType: 1
+      pos: {x: -2.415573, y: 0.49998802, z: 172.40753}
+    - collectibleType: 1
+      pos: {x: -2.40743, y: 0.49999145, z: 173.90466}
+    - collectibleType: 1
+      pos: {x: -2.4584398, y: 0.49999088, z: 175.80191}
+    - collectibleType: 1
+      pos: {x: -3.101632, y: 0.49999037, z: 176.40735}
+    - collectibleType: 1
+      pos: {x: 2.2510312, y: 0.49999017, z: 176.52927}
+    - collectibleType: 1
+      pos: {x: 2.2235913, y: 0.4999891, z: 175.10468}
+    - collectibleType: 1
+      pos: {x: 2.144375, y: 0.49999306, z: 173.59158}
+    - collectibleType: 1
+      pos: {x: 2.1411276, y: 0.49999288, z: 172.59857}
+    - collectibleType: 1
+      pos: {x: 2.8062887, y: 0.4999925, z: 172.79108}
+    - collectibleType: 1
+      pos: {x: 3.494331, y: 0.49998927, z: 172.50105}
+    - collectibleType: 1
+      pos: {x: 3.6542754, y: 0.49999133, z: 174.00949}
+    - collectibleType: 1
+      pos: {x: 3.7037797, y: 0.49999112, z: 175.68321}
+    - collectibleType: 1
+      pos: {x: 3.7105384, y: 0.4999834, z: 176.77957}
+    - collectibleType: 1
+      pos: {x: 3.217129, y: 0.49997866, z: 176.65425}
+    - collectibleType: 1
+      pos: {x: -0.38449067, y: 0.4999932, z: 198.20311}
+    - collectibleType: 1
+      pos: {x: -0.74250406, y: 0.49999416, z: 196.5818}
+    - collectibleType: 1
+      pos: {x: 0.0114764925, y: 0.49999058, z: 196.58226}
+    - collectibleType: 4
+      pos: {x: -0.25810978, y: 0.86313, z: 8.035614}
+    platforms:
+    - pos: {x: 0, y: 0, z: 0}
+    - pos: {x: 0, y: 0, z: 90.05}
+    - pos: {x: 0, y: 0, z: 180.1}
+    targetValue: 0d0000000f0000000f000000
+    levelind: 5
+  - collectibles:
+    - collectibleType: 2
+      pos: {x: -4.8222795, y: 0.675, z: -28.285097}
+    - collectibleType: 2
+      pos: {x: -4.242316, y: 0.675, z: -28.392685}
+    - collectibleType: 2
+      pos: {x: -3.5435112, y: 0.675, z: -28.419394}
+    - collectibleType: 2
+      pos: {x: -2.885297, y: 0.675, z: -28.285097}
+    - collectibleType: 2
+      pos: {x: -2.1992822, y: 0.675, z: -28.285097}
+    - collectibleType: 2
+      pos: {x: -1.5536216, y: 0.675, z: -28.285099}
+    - collectibleType: 2
+      pos: {x: -1.0290223, y: 0.675, z: -28.285097}
+    - collectibleType: 2
+      pos: {x: -0.4237154, y: 0.675, z: -28.285097}
+    - collectibleType: 2
+      pos: {x: 0.22194542, y: 0.675, z: -28.285097}
+    - collectibleType: 2
+      pos: {x: 0.7868993, y: 0.675, z: -28.285099}
+    - collectibleType: 2
+      pos: {x: 1.3922052, y: 0.675, z: -28.285097}
+    - collectibleType: 2
+      pos: {x: 1.916805, y: 0.675, z: -28.285099}
+    - collectibleType: 2
+      pos: {x: 19.033197, y: -1365299.6, z: -62.5255}
+    - collectibleType: 2
+      pos: {x: 3.2484808, y: 0.675, z: -28.285099}
+    - collectibleType: 2
+      pos: {x: 4.0366745, y: 0.675, z: -28.376028}
+    - collectibleType: 2
+      pos: {x: 4.8176174, y: 0.675, z: -28.429138}
+    - collectibleType: 1
+      pos: {x: -2.1546435, y: 0.49999014, z: -27.184498}
+    - collectibleType: 1
+      pos: {x: -1.6843385, y: 0.49998996, z: -26.025354}
+    - collectibleType: 1
+      pos: {x: -1.0742004, y: 0.4999888, z: -24.398987}
+    - collectibleType: 1
+      pos: {x: -0.23567882, y: 0.49999145, z: -22.361269}
+    - collectibleType: 1
+      pos: {x: 0.74208146, y: 0.49999145, z: -24.196293}
+    - collectibleType: 1
+      pos: {x: 1.4768945, y: 0.4999966, z: -25.73003}
+    - collectibleType: 1
+      pos: {x: 2.5056772, y: 0.49999127, z: -27.313684}
+    - collectibleType: 2
+      pos: {x: 2.6193419, y: 0.675, z: -28.2675}
+    - collectibleType: 1
+      pos: {x: -0.24406861, y: 0.49999344, z: -5.912724}
+    - collectibleType: 1
+      pos: {x: -1.2425305, y: 0.49998987, z: -3.6570723}
+    - collectibleType: 1
+      pos: {x: 0.90510535, y: 0.49998808, z: -3.6429744}
+    - collectibleType: 1
+      pos: {x: -0.33942956, y: 0.49999136, z: -1.1468925}
+    - collectibleType: 1
+      pos: {x: 2.930252, y: 0.49999392, z: 6.1900225}
+    - collectibleType: 1
+      pos: {x: 2.0396142, y: 0.49999171, z: 8.29639}
+    - collectibleType: 1
+      pos: {x: 3.8141212, y: 0.49999726, z: 8.3079605}
+    - collectibleType: 1
+      pos: {x: 3.1074433, y: 0.49998748, z: 10.484163}
+    - collectibleType: 1
+      pos: {x: -3.319163, y: 0.49998984, z: 6.2734737}
+    - collectibleType: 1
+      pos: {x: -4.3873954, y: 0.49998838, z: 8.254268}
+    - collectibleType: 1
+      pos: {x: -2.5454066, y: 0.49999022, z: 7.8998613}
+    - collectibleType: 1
+      pos: {x: -3.5472395, y: 0.49998945, z: 9.839638}
+    - collectibleType: 1
+      pos: {x: -0.21106465, y: 0.49999356, z: 18.238514}
+    - collectibleType: 1
+      pos: {x: -1.1570626, y: 0.49999428, z: 20.562449}
+    - collectibleType: 1
+      pos: {x: 0.9424412, y: 0.49999198, z: 20.250967}
+    - collectibleType: 1
+      pos: {x: -0.0910641, y: 0.49999377, z: 22.139933}
+    - collectibleType: 2
+      pos: {x: 0.25028875, y: 0.675, z: 54.020256}
+    - collectibleType: 2
+      pos: {x: -0.959684, y: 0.675, z: 54.209915}
+    - collectibleType: 2
+      pos: {x: -2.0301065, y: 0.675, z: 55.144863}
+    - collectibleType: 2
+      pos: {x: -2.8396292, y: 0.675, z: 56.6181}
+    - collectibleType: 2
+      pos: {x: -3.054872, y: 0.675, z: 57.999916}
+    - collectibleType: 2
+      pos: {x: -2.4934123, y: 0.675, z: 59.323143}
+    - collectibleType: 2
+      pos: {x: -1.3567933, y: 0.675, z: 60.539303}
+    - collectibleType: 2
+      pos: {x: 0.542511, y: 0.675, z: 60.657635}
+    - collectibleType: 2
+      pos: {x: 1.4612976, y: 0.675, z: 59.874508}
+    - collectibleType: 2
+      pos: {x: 2.0206556, y: 0.675, z: 58.678658}
+    - collectibleType: 2
+      pos: {x: 2.222668, y: 0.675, z: 57.357014}
+    - collectibleType: 2
+      pos: {x: 1.8334306, y: 0.675, z: 55.77621}
+    - collectibleType: 2
+      pos: {x: 1.1626557, y: 0.675, z: 54.721504}
+    - collectibleType: 2
+      pos: {x: -0.3721189, y: 0.675, z: 60.84064}
+    - collectibleType: 1
+      pos: {x: -4.944901, y: 0.49998963, z: 73.584305}
+    - collectibleType: 1
+      pos: {x: -4.495237, y: 0.49998826, z: 74.229195}
+    - collectibleType: 1
+      pos: {x: -3.7930546, y: 0.49998957, z: 75.19595}
+    - collectibleType: 1
+      pos: {x: -3.020648, y: 0.49999675, z: 76.55653}
+    - collectibleType: 1
+      pos: {x: -2.1262403, y: 0.49998742, z: 78.074326}
+    - collectibleType: 1
+      pos: {x: -1.1547432, y: 0.49999005, z: 79.28899}
+    - collectibleType: 1
+      pos: {x: -0.2506368, y: 0.49999326, z: 80.82129}
+    - collectibleType: 1
+      pos: {x: 0.7368488, y: 0.49998927, z: 82.173035}
+    - collectibleType: 1
+      pos: {x: 1.5538725, y: 0.4999963, z: 83.64432}
+    - collectibleType: 1
+      pos: {x: 2.4375062, y: 0.49998876, z: 85.11889}
+    - collectibleType: 1
+      pos: {x: 3.2756732, y: 0.49998894, z: 86.87843}
+    - collectibleType: 1
+      pos: {x: 4.5593176, y: 0.49998245, z: 88.49541}
+    - collectibleType: 1
+      pos: {x: -5.055029, y: 0.49998772, z: 89.18464}
+    - collectibleType: 1
+      pos: {x: -4.230437, y: 0.49998882, z: 88.01711}
+    - collectibleType: 1
+      pos: {x: -3.3386173, y: 0.49998963, z: 86.61438}
+    - collectibleType: 1
+      pos: {x: -2.595549, y: 0.4999911, z: 85.17259}
+    - collectibleType: 1
+      pos: {x: -1.8128723, y: 0.49999082, z: 83.587296}
+    - collectibleType: 1
+      pos: {x: -1.2273972, y: 0.49998993, z: 82.14054}
+    - collectibleType: 1
+      pos: {x: 0.68898547, y: 0.4999898, z: 79.61089}
+    - collectibleType: 1
+      pos: {x: 1.5160487, y: 0.49999112, z: 78.95434}
+    - collectibleType: 1
+      pos: {x: 2.0866709, y: 0.4999975, z: 77.625854}
+    - collectibleType: 1
+      pos: {x: 2.7483232, y: 0.49999124, z: 76.73319}
+    - collectibleType: 1
+      pos: {x: 3.54669, y: 0.49999148, z: 75.754616}
+    - collectibleType: 1
+      pos: {x: 4.2840514, y: 0.49998778, z: 74.84596}
+    - collectibleType: 1
+      pos: {x: 4.8309746, y: 0.4999873, z: 74.19339}
+    - collectibleType: 2
+      pos: {x: -3.9660618, y: 0.675, z: 111.926895}
+    - collectibleType: 2
+      pos: {x: -3.3952389, y: 0.675, z: 110.983696}
+    - collectibleType: 2
+      pos: {x: -2.7702343, y: 0.675, z: 109.88627}
+    - collectibleType: 2
+      pos: {x: -4.1753983, y: 0.675, z: 108.63252}
+    - collectibleType: 2
+      pos: {x: -3.4488957, y: 0.675, z: 109.35919}
+    - collectibleType: 2
+      pos: {x: 3.791016, y: 0.675, z: 112.56013}
+    - collectibleType: 2
+      pos: {x: 3.1587753, y: 0.675, z: 111.677956}
+    - collectibleType: 2
+      pos: {x: 2.6614165, y: 0.675, z: 110.60839}
+    - collectibleType: 2
+      pos: {x: 3.176729, y: 0.675, z: 110.03944}
+    - collectibleType: 2
+      pos: {x: 3.8098693, y: 0.675, z: 109.5972}
+    - collectibleType: 2
+      pos: {x: -0.07602774, y: 0.675, z: 123.42767}
+    - collectibleType: 2
+      pos: {x: -0.5173353, y: 0.675, z: 122.08891}
+    - collectibleType: 2
+      pos: {x: 0.37126958, y: 0.675, z: 122.13464}
+    - collectibleType: 2
+      pos: {x: -0.049973976, y: 0.675, z: 120.83871}
+    - collectibleType: 2
+      pos: {x: -5.0221257, y: 0.675, z: 146.0665}
+    - collectibleType: 2
+      pos: {x: -4.6149535, y: 0.675, z: 147.31052}
+    - collectibleType: 2
+      pos: {x: -4.0464177, y: 0.675, z: 148.50197}
+    - collectibleType: 2
+      pos: {x: -3.308723, y: 0.675, z: 149.7487}
+    - collectibleType: 2
+      pos: {x: -2.4833887, y: 0.675, z: 151.20036}
+    - collectibleType: 2
+      pos: {x: -1.8997583, y: 0.675, z: 152.03725}
+    - collectibleType: 2
+      pos: {x: -0.8214463, y: 0.675, z: 152.69249}
+    - collectibleType: 2
+      pos: {x: 0.08974066, y: 0.675, z: 153.02924}
+    - collectibleType: 2
+      pos: {x: 1.04987, y: 0.675, z: 152.29156}
+    - collectibleType: 2
+      pos: {x: 1.6571608, y: 0.675, z: 151.48454}
+    - collectibleType: 2
+      pos: {x: 2.5496676, y: 0.675, z: 150.08664}
+    - collectibleType: 2
+      pos: {x: 3.0805526, y: 0.675, z: 149.16556}
+    - collectibleType: 2
+      pos: {x: 3.7432785, y: 0.675, z: 147.97098}
+    - collectibleType: 2
+      pos: {x: 4.239296, y: 0.675, z: 147.02621}
+    - collectibleType: 2
+      pos: {x: 4.619358, y: 0.675, z: 145.9356}
+    - collectibleType: 2
+      pos: {x: -5.083381, y: 0.675, z: 160.99521}
+    - collectibleType: 2
+      pos: {x: -4.4563913, y: 0.675, z: 159.10043}
+    - collectibleType: 2
+      pos: {x: -4.092171, y: 0.675, z: 157.52939}
+    - collectibleType: 2
+      pos: {x: -3.5029535, y: 0.675, z: 155.8088}
+    - collectibleType: 2
+      pos: {x: -2.9544425, y: 0.675, z: 154.62088}
+    - collectibleType: 2
+      pos: {x: -2.4002666, y: 0.675, z: 153.51228}
+    - collectibleType: 2
+      pos: {x: -1.291759, y: 0.675, z: 151.23149}
+    - collectibleType: 2
+      pos: {x: -0.5282367, y: 0.675, z: 150.4681}
+    - collectibleType: 2
+      pos: {x: 0.49633172, y: 0.675, z: 151.14243}
+    - collectibleType: 2
+      pos: {x: 1.6182168, y: 0.675, z: 153.4874}
+    - collectibleType: 2
+      pos: {x: 2.3372908, y: 0.675, z: 155.10431}
+    - collectibleType: 2
+      pos: {x: 3.1052427, y: 0.675, z: 156.60522}
+    - collectibleType: 2
+      pos: {x: 3.9816868, y: 0.675, z: 158.56339}
+    - collectibleType: 2
+      pos: {x: 4.6796193, y: 0.675, z: 160.57675}
+    - collectibleType: 1
+      pos: {x: -3.9910004, y: 0.4999894, z: 176.28404}
+    - collectibleType: 1
+      pos: {x: -3.9687726, y: 0.49998945, z: 174.65791}
+    - collectibleType: 1
+      pos: {x: -3.9486012, y: 0.49999005, z: 173.48994}
+    - collectibleType: 1
+      pos: {x: -3.9260168, y: 0.49998903, z: 172.6945}
+    - collectibleType: 1
+      pos: {x: -3.0962286, y: 0.49998784, z: 172.40723}
+    - collectibleType: 1
+      pos: {x: -2.415573, y: 0.49998802, z: 172.40753}
+    - collectibleType: 1
+      pos: {x: -2.40743, y: 0.49999145, z: 173.90466}
+    - collectibleType: 1
+      pos: {x: -2.4584398, y: 0.49999088, z: 175.80191}
+    - collectibleType: 1
+      pos: {x: -3.101632, y: 0.49999037, z: 176.40735}
+    - collectibleType: 1
+      pos: {x: 2.2510312, y: 0.49999017, z: 176.52927}
+    - collectibleType: 1
+      pos: {x: 2.2235913, y: 0.4999891, z: 175.10468}
+    - collectibleType: 1
+      pos: {x: 2.144375, y: 0.49999306, z: 173.59158}
+    - collectibleType: 1
+      pos: {x: 2.1411276, y: 0.49999288, z: 172.59857}
+    - collectibleType: 1
+      pos: {x: 2.8062887, y: 0.4999925, z: 172.79108}
+    - collectibleType: 1
+      pos: {x: 3.494331, y: 0.49998927, z: 172.50105}
+    - collectibleType: 1
+      pos: {x: 3.6542754, y: 0.49999133, z: 174.00949}
+    - collectibleType: 1
+      pos: {x: 3.7037797, y: 0.49999112, z: 175.68321}
+    - collectibleType: 1
+      pos: {x: 3.7105384, y: 0.4999834, z: 176.77957}
+    - collectibleType: 1
+      pos: {x: 3.217129, y: 0.49997866, z: 176.65425}
+    - collectibleType: 1
+      pos: {x: -0.38449067, y: 0.4999932, z: 198.20311}
+    - collectibleType: 1
+      pos: {x: -0.74250406, y: 0.49999416, z: 196.5818}
+    - collectibleType: 1
+      pos: {x: 0.0114764925, y: 0.49999058, z: 196.58226}
+    - collectibleType: 4
+      pos: {x: -0.34650508, y: 1.0502819, z: 57.919422}
+    platforms:
+    - pos: {x: 0, y: 0, z: 0}
+    - pos: {x: 0, y: 0, z: 90.05}
+    - pos: {x: 0, y: 0, z: 180.1}
+    targetValue: 110000001300000013000000
+    levelind: 7
+  - collectibles:
+    - collectibleType: 1
+      pos: {x: -3.6567857, y: 0.49999383, z: -28.713324}
+    - collectibleType: 1
+      pos: {x: -2.7663534, y: 0.49999028, z: -28.713457}
+    - collectibleType: 1
+      pos: {x: -3.2186024, y: 0.49999774, z: -28.087927}
+    - collectibleType: 1
+      pos: {x: 2.1189437, y: 0.49999237, z: -22.5638}
+    - collectibleType: 1
+      pos: {x: 2.960616, y: 0.50051796, z: -22.56406}
+    - collectibleType: 1
+      pos: {x: 2.7096531, y: 0.49999827, z: -21.49657}
+    - collectibleType: 1
+      pos: {x: -3.5859299, y: 0.49984822, z: -15.411393}
+    - collectibleType: 1
+      pos: {x: -2.5115883, y: 0.49999094, z: -15.469607}
+    - collectibleType: 1
+      pos: {x: -3.0798788, y: 0.49996963, z: -14.286496}
+    - collectibleType: 1
+      pos: {x: 1.6018522, y: 0.5004753, z: -5.5471067}
+    - collectibleType: 1
+      pos: {x: 2.7949517, y: 0.49999183, z: -5.482386}
+    - collectibleType: 1
+      pos: {x: 2.1977224, y: 0.50047123, z: -4.2907486}
+    - collectibleType: 1
+      pos: {x: -3.7109056, y: 0.499996, z: 4.660402}
+    - collectibleType: 1
+      pos: {x: -2.7451727, y: 0.5004886, z: 4.660242}
+    - collectibleType: 1
+      pos: {x: -3.3286798, y: 0.499982, z: 5.7630773}
+    - collectibleType: 3
+      pos: {x: 2.7012784, y: 1.0034612, z: 4.503557}
+    - collectibleType: 0
+      pos: {x: -2.3421602, y: 0.675, z: 57.58367}
+    - collectibleType: 0
+      pos: {x: -2.9363055, y: 0.675, z: 57.809685}
+    - collectibleType: 0
+      pos: {x: -3.0464833, y: 0.675, z: 59.010754}
+    - collectibleType: 0
+      pos: {x: -2.4903998, y: 0.675, z: 59.01456}
+    - collectibleType: 0
+      pos: {x: -2.292544, y: 0.675, z: 56.375786}
+    - collectibleType: 0
+      pos: {x: -2.8931983, y: 0.675, z: 56.477802}
+    - collectibleType: 0
+      pos: {x: 1.7477888, y: 0.675, z: 70.14668}
+    - collectibleType: 0
+      pos: {x: 2.4150424, y: 0.675, z: 70.22564}
+    - collectibleType: 0
+      pos: {x: 1.8218925, y: 0.675, z: 71.638794}
+    - collectibleType: 0
+      pos: {x: 2.4852774, y: 0.675, z: 71.64334}
+    - collectibleType: 0
+      pos: {x: 1.9589685, y: 0.675, z: 73.03743}
+    - collectibleType: 0
+      pos: {x: 2.5181968, y: 0.675, z: 73.133354}
+    - collectibleType: 0
+      pos: {x: -0.7826638, y: 0.675, z: 89.7139}
+    - collectibleType: 0
+      pos: {x: -0.76589614, y: 0.675, z: 88.797966}
+    - collectibleType: 0
+      pos: {x: -0.19699007, y: 0.675, z: 88.899796}
+    - collectibleType: 0
+      pos: {x: -0.24555841, y: 0.675, z: 89.72768}
+    - collectibleType: 0
+      pos: {x: -0.28693345, y: 0.675, z: 91.051125}
+    - collectibleType: 0
+      pos: {x: -0.8445003, y: 0.675, z: 90.90166}
+    - collectibleType: 0
+      pos: {x: 0.3827142, y: 0.675, z: 89.00572}
+    - collectibleType: 0
+      pos: {x: 0.34642252, y: 0.675, z: 89.98686}
+    - collectibleType: 0
+      pos: {x: 0.3748254, y: 0.675, z: 91.1279}
+    platforms:
+    - pos: {x: 0, y: 0, z: 0}
+    - pos: {x: 0, y: 0, z: 90.05}
+    targetValue: 0500000007000000
+    levelind: 1
+  pickerData:
+    pickerPos: {x: -0.0000006817281, y: 0.51, z: -37.5}
