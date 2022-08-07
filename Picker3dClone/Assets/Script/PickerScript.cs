@@ -36,7 +36,7 @@ public class PickerScript : MonoBehaviour
         }
         else if (Input.GetMouseButton(0))
         {
-            rb.velocity = Vector3.zero;
+            rb.velocity =new Vector3(0, 0, 7.5f);
             endPos = Input.mousePosition;
             float distanceX = endPos.x - firstPos.x;
 
