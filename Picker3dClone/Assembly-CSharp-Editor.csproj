@@ -653,8 +653,14 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+      <HintPath>Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
@@ -667,6 +673,9 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder.Base">
+      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
@@ -683,15 +692,6 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Recorder.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Recorder">
-      <HintPath>Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Recorder.Base">
-      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
@@ -706,18 +706,6 @@
       <Project>{7CBAF6CA-67C1-9AB1-49EA-8E0D6BEBD0A4}</Project>
       <Name>LeanPool</Name>
     </ProjectReference>
-    <ProjectReference Include="LeanCommon.csproj">
-      <Project>{26ED7118-FF2A-0C75-482C-A7141E4999E2}</Project>
-      <Name>LeanCommon</Name>
-    </ProjectReference>
-    <ProjectReference Include="CW.Common.csproj">
-      <Project>{11048DA6-A016-C43E-6815-93E190FAD120}</Project>
-      <Name>CW.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="LeanTouch.csproj">
-      <Project>{C986CC7A-9EB4-0DA7-F50B-DDE927AA501C}</Project>
-      <Name>LeanTouch</Name>
-    </ProjectReference>
     <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
       <Project>{F0F0CB98-610F-F21E-26C6-DC61F49C13B5}</Project>
       <Name>Boxophobic.Utils.Scripts</Name>
@@ -726,9 +714,21 @@
       <Project>{9060BF0C-3C63-F5EB-2AA1-C8F2D7A75EF7}</Project>
       <Name>Boxophobic.SkyboxCubemapExtended.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{26ED7118-FF2A-0C75-482C-A7141E4999E2}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="CW.Common.csproj">
+      <Project>{11048DA6-A016-C43E-6815-93E190FAD120}</Project>
+      <Name>CW.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
       <Project>{077C0BD5-101C-B6EE-C408-D50BE2BAE253}</Project>
       <Name>Boxophobic.Utils.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTouch.csproj">
+      <Project>{C986CC7A-9EB4-0DA7-F50B-DDE927AA501C}</Project>
+      <Name>LeanTouch</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -27,6 +27,9 @@ public class CollectScript : MonoBehaviour
             GameManager.instance.voiceManager.PlayCollectVoice();
             ObjectManager.instance.collectiblegameObjects.Add(other.gameObject);
         }
-
+        if (other.transform.CompareTag("Platform"))
+        {
+            GameManager.instance.pickerScript.activePlatform = other.gameObject;
+        }
     }
 }

@@ -9,6 +9,7 @@ public class LevelEndScript : MonoBehaviour
     public bool setCanvas;
     public int collectiblegameObjectsCount;
     public List<GameObject> particleObjects;
+    public bool levelendBoolBug;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,19 @@ public class LevelEndScript : MonoBehaviour
     {
 
     }
+    public IEnumerator ControlFinish()
+    {
+        yield return new WaitForSeconds(1.5f);
+        if (collectCount >= GameManager.instance.pickerScript.activePlatform.GetComponent<PlatformScript>().targetValue)
+        {
+            setCanvas = true;
+            GameManager.instance.uIManager.SetProgressBar(particleObjects);
+        }
+        else
+        {
+            GameManager.instance.uIManager.SetProgressBar(particleObjects);
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
 
@@ -29,18 +43,24 @@ public class LevelEndScript : MonoBehaviour
             GameManager.instance.voiceManager.PlayCollectVoice();
             GameManager.instance.uIManager.levelCollectCountValue++;
             particleObjects.Add(other.gameObject);
-            if (collectCount >= collectiblegameObjectsCount)
-            {
-                if (collectCount >= GameManager.instance.pickerScript.activePlatform.GetComponent<PlatformScript>().targetValue)
-                {
-                    setCanvas = true;
-                    GameManager.instance.uIManager.SetProgressBar(particleObjects);
-                }
-                else
-                {
-                    GameManager.instance.uIManager.SetProgressBar(particleObjects);
-                }
-            }
+            //if (collectCount >= ObjectManager.instance.collectiblegameObjects.Count)
+            //{
+            //    levelendBoolBug = true;
+            //    if (collectCount >= GameManager.instance.pickerScript.activePlatform.GetComponent<PlatformScript>().targetValue)
+            //    {
+            //        setCanvas = true;
+            //        GameManager.instance.uIManager.SetProgressBar(particleObjects);
+            //    }
+            //    else
+            //    {
+            //        GameManager.instance.uIManager.SetProgressBar(particleObjects);
+            //    }
+            //}
+
+            //if (collectCount> GameManager.instance.pickerScript.activePlatform.GetComponent<PlatformScript>().targetValue)
+            //{
+            //    StartCoroutine(ControlFinish());
+            //}
             ObjectManager.instance.collectiblegameObjects.Remove(other.gameObject);
 
             //if (other.GetComponent<BoxCollider>())

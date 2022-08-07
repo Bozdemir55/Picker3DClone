@@ -36,6 +36,7 @@ public class PickerScript : MonoBehaviour
         }
         else if (Input.GetMouseButton(0))
         {
+            rb.velocity = Vector3.zero;
             endPos = Input.mousePosition;
             float distanceX = endPos.x - firstPos.x;
 
@@ -71,6 +72,7 @@ public class PickerScript : MonoBehaviour
             {
                 item.GetComponent<Rigidbody>().AddForce(Vector3.forward * 475, ForceMode.Force);
             }
+            other.transform.GetChild(0).GetComponent<LevelEndScript>().StartCoroutine(other.transform.GetChild(0).GetComponent<LevelEndScript>().ControlFinish());
         }
     }
     public void ScalePicker()
@@ -90,9 +92,10 @@ public class PickerScript : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.CompareTag("Platform"))
-        {
-            activePlatform = collision.gameObject;
-        }      
+        print("collision : " + collision.transform.name);
+        //if (collision.transform.CompareTag("Platform"))
+        //{
+        //    activePlatform = collision.gameObject;
+        //}
     }
 }

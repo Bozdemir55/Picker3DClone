@@ -1425,6 +1425,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickerParent
       objectReference: {fileID: 0}
+    - target: {fileID: 9033061696655935364, guid: 81c1adbde57a0704a91d035f0c47c1af,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.9809325
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033061696655935364, guid: 81c1adbde57a0704a91d035f0c47c1af,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.50953376
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033061696655935366, guid: 81c1adbde57a0704a91d035f0c47c1af,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.9755862
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033061696655935366, guid: 81c1adbde57a0704a91d035f0c47c1af,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.5122069
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033061696655935367, guid: 81c1adbde57a0704a91d035f0c47c1af,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.97832894
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033061696655935367, guid: 81c1adbde57a0704a91d035f0c47c1af,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.5108355
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81c1adbde57a0704a91d035f0c47c1af, type: 3}
 --- !u!1001 &2769649490814874750
